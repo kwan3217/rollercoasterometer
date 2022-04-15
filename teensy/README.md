@@ -1,23 +1,36 @@
 # Source code for Teensy 4.1 microcontroller. 
 This is inspired by various other works which I have done and seen, but
-is a ground-up implementation. We will bring the parts up one-at-a-time:
+is a ground-up implementation. 
+
+# Structure
+One main file, `rollercoasterometer.ino`. I am considering a bunch of header-only
+classes to handle the other stuff. Each would be in its own `.h` file, but
+there would not be any accompanying `.cpp` files.
+
+We will bring the parts up one-at-a-time:
 
 1. Bring up to Blink with CLI
-1. USB Serial with Putty
-1. TeensyView
-1. Sensors
+2. USB Serial with Putty
+3. TeensyView
+4. Sensors
    1. LSM9DS1
-   1. ICM-20948
-   1. BME680
-   1. ICM-42688 (when it arrives)
-   1. AK09916 (when it arrives)
-   1. ...
-1. PPS
-1. GPS
-1. MicroSD
-1. User interface
+   2. ICM-20948
+   3. BME680
+   4. ICM-42688 (when it arrives)
+   5. AK09916 (when it arrives)
+   6. BMM384 (when it arrives)
+   7. HiMag (when it arrives)
+5. PPS
+6. GPS
+7. MicroSD
+8. Packets
+9. User interface
 
 # Bring up with CLI
+The reason I want to use the command-line method for compiling, rather than
+the Arduino IDE, is that I want to customize the Makefile. I want to attach
+the source code for the project to the uploaded image.
+
 I included the PJRC repo as a submodule:
 
 ```shell
@@ -61,5 +74,9 @@ and I don't want to build in the Teensy folder.
 
 Everything on the host side seemed to be working, and yet the programmer doesn't program :( I'm going to hang this up
 for a while and go on to the next thing.
+
+# USB Serial
+In Arduino, this is pretty straightforward. Once it's done there, Putty picks
+up on it fine too.
 
 
