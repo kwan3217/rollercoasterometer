@@ -696,7 +696,6 @@
   )
 
 
-
   (no_connect (at 210.82 68.58) (uuid 0103fc76-986d-4131-ba5b-06c42e86054b))
   (no_connect (at 175.26 33.02) (uuid 0d754d0e-ea2a-4489-90f1-c31a56e6a8fc))
   (no_connect (at 175.26 76.2) (uuid 18f65411-7d89-499c-aea3-e182b8942d88))
@@ -2068,6 +2067,21 @@
     (path "/ef3523e1-1944-4a94-ac44-9b4df6bc7d84/7e5f1de1-52e8-4e90-b0e4-67c16a4896ae/de7338bb-0a64-42a2-93b7-3976719ccc76"
       (reference "D401") (unit 1) (value "0.5A/420mV") (footprint "Diode_SMD:D_0603_1608Metric")
     )
+    (path "/ef3523e1-1944-4a94-ac44-9b4df6bc7d84/8c5bfe6e-8273-44d4-a3ce-b25f8b45e2d5/384415ea-7b73-4230-83b9-8500bb0380ba/b266cb1e-f66f-4747-a1c8-f94540985ebe"
+      (reference "D1001") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
+    (path "/261f39eb-fd7b-4638-9e1c-4710f0fb640c/d120ec91-a4e8-4cdb-816e-81c4eae20404/250dc1a6-364c-43f2-aa95-90d20389c1bd"
+      (reference "D1401") (unit 1) (value "GREEN, YELLOW") (footprint "KwanSystems:LEDKingbrightAPHB")
+    )
+    (path "/ef3523e1-1944-4a94-ac44-9b4df6bc7d84/db9fac42-24ae-4df7-9b92-30693a3c1ae7/250dc1a6-364c-43f2-aa95-90d20389c1bd"
+      (reference "D1601") (unit 1) (value "GREEN, YELLOW") (footprint "KwanSystems:LEDKingbrightAPHB")
+    )
+    (path "/261f39eb-fd7b-4638-9e1c-4710f0fb640c/feed83e7-fe35-45c3-b938-143fa9d139d9/384415ea-7b73-4230-83b9-8500bb0380ba/b266cb1e-f66f-4747-a1c8-f94540985ebe"
+      (reference "D1905") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
+    (path "/72ca375e-1727-4b46-973a-e45bf1b24698/384415ea-7b73-4230-83b9-8500bb0380ba/b266cb1e-f66f-4747-a1c8-f94540985ebe"
+      (reference "D3001") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
     (path "/3007eb32-bf9b-423d-bf3e-71bf7ed2b4b2"
       (reference "G101") (unit 1) (value "KwanSystems") (footprint "KwanSystems:StKwansSoldermask")
     )
@@ -2223,6 +2237,18 @@
     )
     (path "/ef3523e1-1944-4a94-ac44-9b4df6bc7d84/8c5bfe6e-8273-44d4-a3ce-b25f8b45e2d5/f5311585-85f2-4e1d-bf89-554747045229/7356b920-87bc-4a07-9b8e-ccad6a11e49e"
       (reference "R802") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/261f39eb-fd7b-4638-9e1c-4710f0fb640c/d120ec91-a4e8-4cdb-816e-81c4eae20404/54433dd4-adee-4336-973f-b7d943e3b941"
+      (reference "R1401") (unit 1) (value "330") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/261f39eb-fd7b-4638-9e1c-4710f0fb640c/d120ec91-a4e8-4cdb-816e-81c4eae20404/e199ed72-6b3b-4ec7-a4ea-7a28131416d7"
+      (reference "R1402") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/ef3523e1-1944-4a94-ac44-9b4df6bc7d84/db9fac42-24ae-4df7-9b92-30693a3c1ae7/54433dd4-adee-4336-973f-b7d943e3b941"
+      (reference "R1601") (unit 1) (value "330") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/ef3523e1-1944-4a94-ac44-9b4df6bc7d84/db9fac42-24ae-4df7-9b92-30693a3c1ae7/e199ed72-6b3b-4ec7-a4ea-7a28131416d7"
+      (reference "R1602") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/261f39eb-fd7b-4638-9e1c-4710f0fb640c/feed83e7-fe35-45c3-b938-143fa9d139d9/f5311585-85f2-4e1d-bf89-554747045229/44a34f3a-b6ff-4b1f-97e5-59247c9dddd1"
       (reference "R2001") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
