@@ -1,1 +1,9 @@
+#Gerber plots. Need to make them because OSHPark doesn't accept Kicad 6 boards yet
 gerbers/
+
+#Kicad backups
+*-backups/
+
+#Local project settings, don't need to be checked in
+*.kicad_prl  
+
