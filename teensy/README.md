@@ -52,7 +52,14 @@ ARDUINOPATH ?= ../../../arduino-1.8.19/
 I copied the linker script `arduino-1.8.19/hardware/teensy/avr/cores/teensy4/imxrt1062_t41.ld`
 into this project. I haven't made any changes to it yet, but I reserve the right to do so.
 
-I copied the program `arduino-1.8.19/hardware/teensy/avr/cores/teensy4/Blink.cc` into this project
+I copied the program `arduino-1.8.19/hardware/teensy/avr/cores/teensy4/Blink.cc` into this project as
+`blink.cpp`.
 
+The problem with the Makefile is that it is intended to compile in-place. I
+don't want to copy all the code that came with Teensy into this repository,
+and I don't want to build in the Teensy folder. 
+
+Everything on the host side seemed to be working, and yet the programmer doesn't program :( I'm going to hang this up
+for a while and go on to the next thing.
 
 
