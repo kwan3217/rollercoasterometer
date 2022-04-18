@@ -79,4 +79,18 @@ for a while and go on to the next thing.
 In Arduino, this is pretty straightforward. Once it's done there, Putty picks
 up on it fine too.
 
+# Sensors
+I re-arranged
+the base classes to use CRTP, so that I could use compile-time polymorphism
+to decide whether a sensor is big- or little- ended. At some point I will
+probably add other data-types, and maybe break out the little- and big-end
+stuff so that packets can use it too.
+
+* `I2C_Sensor`
+  * `I2C_sensor_be`
+     * `ICM_20948`
+  * `I2C_sensor_le`
+
+## ICM20948
+The code I had previously written for the Arduino RedBoard works fine. 
 
