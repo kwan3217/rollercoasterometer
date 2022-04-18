@@ -86,10 +86,87 @@ to decide whether a sensor is big- or little- ended. At some point I will
 probably add other data-types, and maybe break out the little- and big-end
 stuff so that packets can use it too.
 
-* `I2C_Sensor`
+* `I2C_sensor`
   * `I2C_sensor_be`
      * `ICM_20948`
   * `I2C_sensor_le`
+
+In this case, we have `I2C_sensor`, which is a template class that takes its 
+derived class as its template argument. The derived class supplies the conversion
+between byte buffers and larger values, converting between the sensor and host
+endian-ness. Since the types are all known at compile time, and since this is a
+header-only library, my hope is that the compiler sees through all the templates,
+function calls, etc and optimizes it all into clean inline code.
+  
+I want to have one function called `read()` and one called `write()` which
+get data back and forth from the sensor, but normal operator overloading doesn't
+work, because `read()` is only distinguished by return type, and you can't overload
+on that. So, we use a template member function inside of a template class. Many 
+calls to `read()` or `write()` will need to have a type specified as a template
+parameter, but that's ok, since "Explicit Is Better Than Implicit". We might
+have 17 functions to work on 17 different types, but they are all called `read()`
+and they all get pulled in with `using I2C_sensor::read;`
+
+Unfortunately, while template classes with template member functions are possible,
+they aren't clean. You can't partially specialize the template function. So, we end
+up with code structured like this:
+
+```c++
+template<typename T>
+class I2C_sensor {
+public:
+  void read(uint8_t reg_addr, uint8_t buf[], size_t len) {/* Actual I2C read transaction of len bytes */} 
+  uint8_t read(uint8_t reg_addr) {/* Actual I2C read transaction special case for 1 byte */} 
+  void write(uint8_t reg_addr, uint8_t buf[], size_t len) {/* Actual I2C write transaction of len bytes */} 
+  write read(uint8_t reg_addr, uint8_t data) {/* Actual I2C write transaction special case for 1 byte */} 
+  template<typename U> U    get(...); //Get a value of type U from the buffer
+  template<typename U> void put(...); //Put a value of type U into the buffer
+  template<typename U> U   read(...) {/* with inline implementation, using get<U>() */}
+  template<typename U> U  write(...) {/* with inline implementation, using put<U>() */}
+  /* ... */
+}
+
+class I2C_sensor_be:public I2C_sensor<I2C_sensor_be> {
+public:
+  using I2C_sensor::read;
+  using I2C_sensor::write;
+  /* ... */
+}
+
+/* Full specialization, not for I2C_sensor_be, but for I2C_sensor with
+   I2C_sensor_be specified as first parameter. So, this is actually
+   code which will be compiled as part of the base class, but is logically
+   part of the derived class, and therefore listed here. */
+template<> template<> 
+inline uint16_t I2C_sensor<I2C_sensor_be>::get(uint8_t buf[]) { /* big-endian extract from buffer */ };
+/* There could be another one like this for every unsigned type, including uint8_t */
+
+/* Now we do all the *signed* stuff, where we assume that casting between signed
+  and unsigned is a good thing to do. It assumes that the sign convention is the
+  same between the host and device. Since all modern electronics use twos complement,
+  this is going to be valid. */
+template<> template<> 
+inline int16_t I2C_sensor<I2C_sensor_be>::get(uint8_t buf[]) {return int16_t(get<uint16_t>(buf)); /* use unsigned get, then cast to signed */};
+/* Again, one like this for each signed type, for which there must be an unsigned type.
+
+/* And now the ugly part -- we get to repeat all this boilerplate for little-endian  
+   The only difference is in the unsigned get and put for multi-byte values. */
+   
+class I2C_sensor_le:public I2C_sensor<I2C_sensor_le> {
+public:
+  using I2C_sensor::read;
+  using I2C_sensor::write;
+  /* ... */
+};
+
+template<> template<> inline uint16_t I2C_sensor<I2C_sensor_be>::get(uint8_t buf[]) { /* ... */ }
+template<> template<> inline  int16_t I2C_sensor<I2C_sensor_be>::get(uint8_t buf[]) {return int16_t(get<uint16_t>(buf));}
+
+```
+
+So far my optimization hope seems to be working. It's ugly code to look at, but
+the zen of C++ is to hide the ugliness in the library, as long as it is easy to
+call.
 
 ## ICM20948
 The code I had previously written for the Arduino RedBoard works fine. 

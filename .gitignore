@@ -4,6 +4,11 @@ gerbers/
 #Kicad backups
 *-backups/
 
+#Kicad caches
+*-cache
+
 #Local project settings, don't need to be checked in
 *.kicad_prl  
 
+#clion build stuff
+teensy/cmake-build-debug/
