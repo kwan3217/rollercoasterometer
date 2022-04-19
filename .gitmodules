@@ -2,5 +2,5 @@
 	path = teensy/teensy_loader_cli
 	url = https://github.com/PaulStoffregen/teensy_loader_cli.git
 [submodule "kwan_kicad_lib"]
-	path = kwan_kicad_lib
+	path = kicad/kwan_kicad_lib
 	url = git@github.com:kwan3217/kwan_kicad_lib.git
