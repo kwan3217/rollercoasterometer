@@ -1744,7 +1744,7 @@
     (property "Reference" "R436" (id 0) (at 109.6772 157.5816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "3.3k" (id 1) (at 109.6772 159.893 0)
+    (property "Value" "5.1k" (id 1) (at 109.6772 159.893 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 108.966 159.004 90)
