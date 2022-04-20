@@ -681,11 +681,11 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
+        (pin no_connect line (at 15.494 -33.528 180) (length 2.54) hide
           (name "RESERVED" (effects (font (size 1.27 1.27))))
           (number "10" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
+        (pin no_connect line (at 15.494 -33.782 180) (length 2.54) hide
           (name "RESERVED" (effects (font (size 1.27 1.27))))
           (number "11" (effects (font (size 1.27 1.27))))
         )
@@ -693,7 +693,7 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "12" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
+        (pin no_connect line (at 15.494 -34.036 180) (length 2.54) hide
           (name "RESERVED" (effects (font (size 1.27 1.27))))
           (number "13" (effects (font (size 1.27 1.27))))
         )
@@ -701,19 +701,19 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "14" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
+        (pin no_connect line (at 15.494 -34.544 180) (length 2.54) hide
           (name "RESERVED" (effects (font (size 1.27 1.27))))
           (number "15" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
+        (pin no_connect line (at 15.494 -34.798 180) (length 2.54) hide
           (name "RESERVED" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
+        (pin no_connect line (at 15.494 -35.052 180) (length 2.54) hide
           (name "RESERVED" (effects (font (size 1.27 1.27))))
           (number "17" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
+        (pin no_connect line (at 15.494 -35.306 180) (length 2.54) hide
           (name "RESERVED" (effects (font (size 1.27 1.27))))
           (number "18" (effects (font (size 1.27 1.27))))
         )
@@ -729,7 +729,7 @@
           (name "RTK_STAT" (effects (font (size 1.27 1.27))))
           (number "20" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
+        (pin no_connect line (at 15.494 -35.814 180) (length 2.54) hide
           (name "RESERVED" (effects (font (size 1.27 1.27))))
           (number "21" (effects (font (size 1.27 1.27))))
         )
@@ -741,11 +741,11 @@
           (name "DIR" (effects (font (size 1.27 1.27))))
           (number "23" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
+        (pin no_connect line (at 15.494 -36.068 180) (length 2.54) hide
           (name "RESERVED" (effects (font (size 1.27 1.27))))
           (number "24" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
+        (pin no_connect line (at 15.494 -36.322 180) (length 2.54) hide
           (name "RESERVED" (effects (font (size 1.27 1.27))))
           (number "25" (effects (font (size 1.27 1.27))))
         )
@@ -757,11 +757,11 @@
           (name "TX2" (effects (font (size 1.27 1.27))))
           (number "27" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
+        (pin no_connect line (at 15.494 -36.576 180) (length 2.54) hide
           (name "RESERVED" (effects (font (size 1.27 1.27))))
           (number "28" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
+        (pin no_connect line (at 15.494 -37.084 180) (length 2.54) hide
           (name "RESERVED" (effects (font (size 1.27 1.27))))
           (number "29" (effects (font (size 1.27 1.27))))
         )
@@ -769,11 +769,11 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
+        (pin no_connect line (at 15.494 -37.338 180) (length 2.54) hide
           (name "RESERVED" (effects (font (size 1.27 1.27))))
           (number "30" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
+        (pin no_connect line (at 15.494 -37.592 180) (length 2.54) hide
           (name "RESERVED" (effects (font (size 1.27 1.27))))
           (number "31" (effects (font (size 1.27 1.27))))
         )
@@ -789,7 +789,7 @@
           (name "VCC" (effects (font (size 1.27 1.27))))
           (number "34" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
+        (pin no_connect line (at 15.494 -37.846 180) (length 2.54) hide
           (name "RESERVED" (effects (font (size 1.27 1.27))))
           (number "35" (effects (font (size 1.27 1.27))))
         )
@@ -865,7 +865,7 @@
           (name "EXT_INT" (effects (font (size 1.27 1.27))))
           (number "51" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
+        (pin no_connect line (at 15.494 -38.354 180) (length 2.54) hide
           (name "RESERVED" (effects (font (size 1.27 1.27))))
           (number "52" (effects (font (size 1.27 1.27))))
         )
@@ -873,7 +873,7 @@
           (name "TIMEPULSE" (effects (font (size 1.27 1.27))))
           (number "53" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
+        (pin no_connect line (at 15.494 -38.608 180) (length 2.54) hide
           (name "RESERVED" (effects (font (size 1.27 1.27))))
           (number "54" (effects (font (size 1.27 1.27))))
           (alternate "stuff" power_in line)
@@ -890,7 +890,7 @@
           (name "RESERVED" (effects (font (size 1.27 1.27))))
           (number "8" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 15.24 -33.02 180) (length 2.54) hide
+        (pin no_connect line (at 15.494 -33.274 180) (length 2.54) hide
           (name "RESERVED" (effects (font (size 1.27 1.27))))
           (number "9" (effects (font (size 1.27 1.27))))
         )
