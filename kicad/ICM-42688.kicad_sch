@@ -81,11 +81,11 @@
           (number "1" (effects (font (size 1.27 1.27))))
           (alternate "SDO" bidirectional line)
         )
-        (pin no_connect line (at -12.7 3.81 0) (length 2.54) hide
+        (pin no_connect line (at -12.446 4.572 0) (length 2.54) hide
           (name "RESV" (effects (font (size 1.27 1.27))))
           (number "10" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at -12.7 3.81 0) (length 2.54) hide
+        (pin no_connect line (at -12.446 4.826 0) (length 2.54) hide
           (name "RESV" (effects (font (size 1.27 1.27))))
           (number "11" (effects (font (size 1.27 1.27))))
         )
@@ -108,7 +108,7 @@
           (name "RESV" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at -12.7 3.81 0) (length 2.54) hide
+        (pin no_connect line (at -12.446 4.064 0) (length 2.54) hide
           (name "RESV" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
@@ -124,7 +124,7 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at -12.7 3.81 0) (length 2.54) hide
+        (pin no_connect line (at -12.446 4.318 0) (length 2.54) hide
           (name "RESV" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
@@ -321,7 +321,7 @@
   (symbol (lib_id "KwanSystems:ICM-42688") (at 114.3 62.23 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4cb4ec2e-02f5-4446-8447-db3933681d2a)
-    (property "Reference" "U1201" (id 0) (at 129.4537 54.9867 0))
+    (property "Reference" "U3201" (id 0) (at 129.4537 54.9867 0))
     (property "Value" "ICM-42688" (id 1) (at 129.4537 57.7618 0))
     (property "Footprint" "KwanSystems:QFN50P300X250X97-14N" (id 2) (at 147.32 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -354,7 +354,7 @@
   (symbol (lib_id "Device:C") (at 154.94 82.55 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4f0ad253-6758-4fab-a304-5619bb190326)
-    (property "Reference" "C1206" (id 0) (at 157.861 81.6415 0)
+    (property "Reference" "C3206" (id 0) (at 157.861 81.6415 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2uF" (id 1) (at 157.861 84.4166 0)
@@ -379,7 +379,7 @@
   (symbol (lib_id "Device:C") (at 116.84 82.55 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9eaea750-5e59-4015-bbbc-7f0606821920)
-    (property "Reference" "C1205" (id 0) (at 119.761 81.6415 0)
+    (property "Reference" "C3205" (id 0) (at 119.761 81.6415 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (id 1) (at 119.761 84.4166 0)
@@ -404,7 +404,7 @@
   (symbol (lib_id "Device:C") (at 142.24 82.55 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bb081485-e2b1-4818-82d4-d89be29e0cf2)
-    (property "Reference" "C1208" (id 0) (at 145.161 81.6415 0)
+    (property "Reference" "C3208" (id 0) (at 145.161 81.6415 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 145.161 84.4166 0)
