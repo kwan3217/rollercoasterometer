@@ -4432,7 +4432,7 @@
       (reference "R410") (unit 4) (value "27") (footprint "KwanSystems:R_Array_Convex_4x0402")
     )
     (path "/ef3523e1-1944-4a94-ac44-9b4df6bc7d84/7e5f1de1-52e8-4e90-b0e4-67c16a4896ae/6641d863-2adf-4aaf-8b7b-177ae35b30ba"
-      (reference "R436") (unit 1) (value "3.3k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R436") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/ef3523e1-1944-4a94-ac44-9b4df6bc7d84/7e5f1de1-52e8-4e90-b0e4-67c16a4896ae/f053d67e-5cea-4620-bec6-ec97dab26187"
       (reference "R438") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -4453,10 +4453,10 @@
       (reference "R453") (unit 1) (value "27") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/ef3523e1-1944-4a94-ac44-9b4df6bc7d84/8c5bfe6e-8273-44d4-a3ce-b25f8b45e2d5/f5311585-85f2-4e1d-bf89-554747045229/44a34f3a-b6ff-4b1f-97e5-59247c9dddd1"
-      (reference "R801") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R801") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/ef3523e1-1944-4a94-ac44-9b4df6bc7d84/8c5bfe6e-8273-44d4-a3ce-b25f8b45e2d5/f5311585-85f2-4e1d-bf89-554747045229/7356b920-87bc-4a07-9b8e-ccad6a11e49e"
-      (reference "R802") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R802") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/261f39eb-fd7b-4638-9e1c-4710f0fb640c/d120ec91-a4e8-4cdb-816e-81c4eae20404/54433dd4-adee-4336-973f-b7d943e3b941"
       (reference "R1401") (unit 1) (value "330") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -4471,16 +4471,16 @@
       (reference "R1602") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/261f39eb-fd7b-4638-9e1c-4710f0fb640c/feed83e7-fe35-45c3-b938-143fa9d139d9/f5311585-85f2-4e1d-bf89-554747045229/44a34f3a-b6ff-4b1f-97e5-59247c9dddd1"
-      (reference "R2001") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R2001") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/261f39eb-fd7b-4638-9e1c-4710f0fb640c/feed83e7-fe35-45c3-b938-143fa9d139d9/f5311585-85f2-4e1d-bf89-554747045229/7356b920-87bc-4a07-9b8e-ccad6a11e49e"
-      (reference "R2002") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R2002") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/72ca375e-1727-4b46-973a-e45bf1b24698/f5311585-85f2-4e1d-bf89-554747045229/44a34f3a-b6ff-4b1f-97e5-59247c9dddd1"
-      (reference "R3101") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R3101") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/72ca375e-1727-4b46-973a-e45bf1b24698/f5311585-85f2-4e1d-bf89-554747045229/7356b920-87bc-4a07-9b8e-ccad6a11e49e"
-      (reference "R3102") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R3102") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/6321da49-3889-482b-8552-92945daa3d4c"
       (reference "U104") (unit 1) (value "Teensy4.1") (footprint "KwanSystems:Teensy2x24")
