@@ -12,3 +12,9 @@ gerbers/
 
 #clion build stuff
 teensy/cmake-build-debug/
+
+kicad/rollercoasterometer.csv
+
+kicad/rollercoasterometer.xml
+
+*.zip
