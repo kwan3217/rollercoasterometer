@@ -4489,13 +4489,13 @@
       (reference "U201") (unit 1) (value "ICM-42688") (footprint "KwanSystems:QFN50P300X250X97-14N")
     )
     (path "/ef3523e1-1944-4a94-ac44-9b4df6bc7d84/83a57570-d78e-4dad-a555-81619a05bbfd"
-      (reference "U301") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
+      (reference "U301") (unit 1) (value "NSP4201MR6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/ef3523e1-1944-4a94-ac44-9b4df6bc7d84/7e5f1de1-52e8-4e90-b0e4-67c16a4896ae/84568202-45a2-4928-b565-cac6026ccba5"
       (reference "U401") (unit 1) (value "ZED_F9R") (footprint "KwanSystems:ZED-F9x")
     )
     (path "/ef3523e1-1944-4a94-ac44-9b4df6bc7d84/62300221-1521-40fd-aaad-aa3b7f577fa3/2616e7e5-f93c-417d-b6f7-30fc073412f5"
-      (reference "U501") (unit 1) (value "ADP122 3.3V") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+      (reference "U501") (unit 1) (value "TCR2EF 3.3V") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/ef3523e1-1944-4a94-ac44-9b4df6bc7d84/8c5bfe6e-8273-44d4-a3ce-b25f8b45e2d5/76fb4d8b-e0fb-4c2c-8956-7acd2f372bff/74b30191-7248-4e66-b943-d2e057ea6f2a"
       (reference "U601") (unit 1) (value "AK09918") (footprint "KwanSystems:AK09918C")
@@ -4507,7 +4507,7 @@
       (reference "U901") (unit 1) (value "BMP384") (footprint "KwanSystems:BMP384")
     )
     (path "/ef3523e1-1944-4a94-ac44-9b4df6bc7d84/8c5bfe6e-8273-44d4-a3ce-b25f8b45e2d5/384415ea-7b73-4230-83b9-8500bb0380ba/fd7d0499-f685-4baa-9f1b-19c98075cbca"
-      (reference "U1001") (unit 1) (value "ADP122 1.8V") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+      (reference "U1001") (unit 1) (value "TCR2EF 1.8V") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/ef3523e1-1944-4a94-ac44-9b4df6bc7d84/8c5bfe6e-8273-44d4-a3ce-b25f8b45e2d5/d3709ace-f368-4263-90aa-b5a69f25ee7d/7b073024-7815-4e6f-bd8c-3e79d18afe7a"
       (reference "U1101") (unit 1) (value "BMM150") (footprint "KwanSystems:BMM150")
@@ -4522,7 +4522,7 @@
       (reference "U1801") (unit 1) (value "TLE493D-W2B6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/261f39eb-fd7b-4638-9e1c-4710f0fb640c/feed83e7-fe35-45c3-b938-143fa9d139d9/384415ea-7b73-4230-83b9-8500bb0380ba/fd7d0499-f685-4baa-9f1b-19c98075cbca"
-      (reference "U1901") (unit 1) (value "ADP122 1.8V") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+      (reference "U1901") (unit 1) (value "TCR2EF 1.8V") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/261f39eb-fd7b-4638-9e1c-4710f0fb640c/feed83e7-fe35-45c3-b938-143fa9d139d9/4158fcb3-1c32-4eea-8ec1-44a1cd5964cf/4cb4ec2e-02f5-4446-8447-db3933681d2a"
       (reference "U2101") (unit 1) (value "ICM-42688") (footprint "KwanSystems:QFN50P300X250X97-14N")
@@ -4546,7 +4546,7 @@
       (reference "U2901") (unit 1) (value "BMP384") (footprint "KwanSystems:BMP384")
     )
     (path "/72ca375e-1727-4b46-973a-e45bf1b24698/384415ea-7b73-4230-83b9-8500bb0380ba/fd7d0499-f685-4baa-9f1b-19c98075cbca"
-      (reference "U3001") (unit 1) (value "ADP122 1.8V") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+      (reference "U3001") (unit 1) (value "TCR2EF 1.8V") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/72ca375e-1727-4b46-973a-e45bf1b24698/4158fcb3-1c32-4eea-8ec1-44a1cd5964cf/4cb4ec2e-02f5-4446-8447-db3933681d2a"
       (reference "U3201") (unit 1) (value "ICM-42688") (footprint "KwanSystems:QFN50P300X250X97-14N")
