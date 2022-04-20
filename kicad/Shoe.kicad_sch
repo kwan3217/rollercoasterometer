@@ -5,7 +5,7 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "KwanSystems:Axis" (in_bom yes) (on_board yes)
+    (symbol "KwanSystems:Axis" (in_bom no) (on_board yes)
       (property "Reference" "G" (id 0) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -47,7 +47,7 @@
         )
       )
     )
-    (symbol "KwanSystems:DesignedWithKicad" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "KwanSystems:DesignedWithKicad" (pin_names (offset 1.016)) (in_bom no) (on_board yes)
       (property "Reference" "G" (id 0) (at 0 -2.54 0)
         (effects (font (size 1.524 1.524)) hide)
       )
@@ -1047,6 +1047,8 @@
     (uuid a5e8e932-86cd-4614-887e-4027754a857e)
   )
 
+  (no_connect (at 139.7 86.36) (uuid 48717883-9342-434a-95b5-4a633ff45d26))
+  (no_connect (at 139.7 88.9) (uuid 48717883-9342-434a-95b5-4a633ff45d27))
   (no_connect (at 139.7 109.22) (uuid 827ec7b6-06b3-40d2-8d3f-7e9af11c561e))
   (no_connect (at 139.7 76.2) (uuid c36d6a39-2caa-4975-a585-d762d089cd6d))
   (no_connect (at 139.7 78.74) (uuid c36d6a39-2caa-4975-a585-d762d089cd6e))
@@ -1235,7 +1237,7 @@
   )
 
   (symbol (lib_id "KwanSystems:Axis") (at 179.07 163.83 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 13bce862-6db4-4c28-8f2d-70b15ca6361e)
     (property "Reference" "G1505" (id 0) (at 195.58 163.83 0)
       (effects (font (size 1.524 1.524)))
@@ -1252,7 +1254,7 @@
   )
 
   (symbol (lib_id "KwanSystems:DesignedWithKicad") (at 184.15 156.21 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 8eb84abe-7753-45af-a6c4-f6a7374740ed)
     (property "Reference" "G1501" (id 0) (at 195.58 154.94 0)
       (effects (font (size 1.524 1.524)))
