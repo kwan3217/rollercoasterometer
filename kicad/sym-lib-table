@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "KwanSystems")(type "KiCad")(uri "${KIPRJMOD}/kwan_kicad_lib/KwanSystems.kicad_sym")(options "")(descr ""))
+)
