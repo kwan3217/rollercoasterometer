@@ -1184,6 +1184,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
+    (model "${KIPRJMOD}/joystick.step"
+      (offset (xyz 80.01 67.31 8.584946))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
