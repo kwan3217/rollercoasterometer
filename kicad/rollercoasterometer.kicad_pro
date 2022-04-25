@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.9,
+          "width": 2.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -590,6 +590,10 @@
     [
       "76fb4d8b-e0fb-4c2c-8956-7acd2f372bff",
       "AK Mag"
+    ],
+    [
+      "2faa4796-f6bd-4ac2-85c9-699e2ddc070c",
+      "Joystick"
     ]
   ],
   "text_variables": {}
