@@ -18,3 +18,5 @@ kicad/rollercoasterometer.csv
 kicad/rollercoasterometer.xml
 
 *.zip
+*.FCStd1
+
