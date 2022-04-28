@@ -1,5 +1,8 @@
 #include <Wire.h>
 
+#ifndef i2c_sensor_h
+#define i2c_sensor_h
+
 template<class T>
 class I2C_sensor {
   /** Software interface for an I2C device with registers. A register
@@ -260,3 +263,5 @@ public:
   template<typename U>
   void write(bank_reg_type bank, uint8_t reg_addr, U data)                    {set_bank(bank);       write<U>(reg_addr,data   );}        
 };
+
+#endif
