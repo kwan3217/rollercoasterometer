@@ -171,3 +171,17 @@ call.
 ## ICM20948
 The code I had previously written for the Arduino RedBoard works fine. 
 
+## ICM42688
+I got 10 of them, and attached one to a breakout board, christening my toaster oven in the process.
+Visual inspection revealed it to be OK, but it isn't consistently acting like I hoped. For a while,
+the RedBoard was able to read it, but only when I was using the ADC to probe the voltages. Probing with
+an ADC like a voltmeter shouldn't make a difference, but it did. Eventually it stopped responding altogether.
+I am going to put this a side for a while, and hope that it's just this one part.
+
+# SD card
+The Teensy library Teensyduino, comes with an SD card library. I was fighting with it for a while,
+where I could get it to create files but not to actually put any data into them. It turns out you
+need to call the `flush()` method on the file object. There is a `sync()` method too, but I haven't
+tried that.
+
+With all the USB and TeensyView stuff turned off, I can get about 2500 packets per second from the inertial sensor to the card.
