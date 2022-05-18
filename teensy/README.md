@@ -199,7 +199,10 @@ It supports:
 
 * Capture input
 * 32-bit resolution
-* 60MHz count rate (to match the old Loginator)
+* 60MHz count rate (to match the old Loginator). The clock driving the timer has a fixed divide-by-4 from
+   the core clock, so in order to get 60MHz, we must have some multiple of 240MHz as the main frequency. 600MHz isn't it, but
+   either 480MHz (underclock) or 720MHz (overclock) is fine.
+* Automatic rollover at some value other than 0xFFFFFFFF. We set it to roll over after 60s, that is 3,600,000,000 counts.
 
 There are other timers which show promise, in particular the quad-timer. This is 4x 16-bit timers which
 can be daisy-chained into a 64-bit timer, but cannot be used for capture.
