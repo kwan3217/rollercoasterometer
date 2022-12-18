@@ -1,7 +1,8 @@
-#include <Wire.h>
-
 #ifndef i2c_sensor_h
 #define i2c_sensor_h
+
+#include <Wire.h>
+#include "bits.h"
 
 template<class T>
 class I2C_sensor {
@@ -45,8 +46,8 @@ class I2C_sensor {
    *  format. 
    *  
    *  The code *does* assume that the host and device use the same signed-integer 
-   *  convention, (EG twos complement, which almost all machines have used for 
-   *  the last 50 years). It relies on casting on the host to properly cast device 
+   *  convention, IE twos complement, which almost all machines have used for 
+   *  the last 50 years. It relies on casting on the host to properly cast device 
    *  data back and forth.
    *  
    *  This uses CRTP to be extended. If it is not extended, it can only handle
@@ -109,8 +110,10 @@ public:
    * @tparam U the data type to get from the buffer
    * @param buf [in] buffer to get from
    */
-  template<typename U>
-  U get(uint8_t buf[]);
+  template<typename U> U get(uint8_t buf[]);
+  //Include explicit endian stuff to facilitate doing the other endian on a part which has mixed endian-ness.
+  template<typename U> U get_be(uint8_t buf[]) {return get_field_be<U>(buf,0);}
+  template<typename U> U get_le(uint8_t buf[]) {return get_field_le<U>(buf,0);}
   
   /** Put a data value into a buffer. Specializations of this template
    *  will handle such things as endian transformation.
@@ -118,8 +121,9 @@ public:
    * @param buf [out] buffer to put into
    * @param data [in] data to put into the buffer
    */
-  template<typename U>
-  void put(uint8_t buf[], U data);
+  template<typename U> void put(uint8_t buf[], U data);
+  template<typename U> void put_be(uint8_t buf[], U data) {put_field_be<U>(buf,0,data);}
+  template<typename U> void put_le(uint8_t buf[], U data) {put_field_le<U>(buf,0,data);}
   
   /** Read a value from the device
    * @reg_addr [in] register address to read from
@@ -133,6 +137,20 @@ public:
     uint8_t buf[sizeof(U)];
     read(reg_addr,buf,sizeof(U));
     return static_cast<T*>(this)->get<U>(buf);
+  }
+  
+  template<typename U>
+  U read_le(uint8_t reg_addr) {
+    uint8_t buf[sizeof(U)];
+    read(reg_addr,buf,sizeof(U));
+    return static_cast<T*>(this)->get_le<U>(buf);
+  }
+  
+  template<typename U>
+  U read_be(uint8_t reg_addr) {
+    uint8_t buf[sizeof(U)];
+    read(reg_addr,buf,sizeof(U));
+    return static_cast<T*>(this)->get_be<U>(buf);
   }
   
   /** Read a value from the device
@@ -166,49 +184,27 @@ public:
     return port.read();
   }
    */
-  
+  virtual bool query(uint8_t* buf)=0;
 };
 
 class I2C_sensor_be:public I2C_sensor<I2C_sensor_be> {
 public:
   using I2C_sensor::read;
+  using I2C_sensor::read_le; //only explicitly use the other endian
   using I2C_sensor::write;
-  I2C_sensor_be(uint8_t Laddr,TwoWire& Lport=Wire):I2C_sensor(Laddr,Lport) {};
+  I2C_sensor_be(uint8_t Laddr, TwoWire& Lport=Wire):I2C_sensor(Laddr,Lport) {}
+  template<typename U> U get(uint8_t buf[]) {return get_be<U>(buf);}
+  template<typename U> void put(uint8_t buf[], U data) {put_le<U>(buf,data);}
 };
-
-template<> template<>
-inline uint8_t I2C_sensor<I2C_sensor_be>::get(uint8_t buf[]) {return buf[0];}
-
-template<> template<>
-inline void    I2C_sensor<I2C_sensor_be>::put(uint8_t buf[], uint8_t data) {buf[0]=data;}
-
-template<> template<>
-inline uint16_t I2C_sensor<I2C_sensor_be>::get(uint8_t buf[]) {
-  uint16_t msb, lsb;
-  msb = buf[0];
-  lsb = buf[1];
-  uint16_t result=msb<<8 | lsb;
-  return result;
-}
-
-template<> template<>
-inline void I2C_sensor<I2C_sensor_be>::put(uint8_t buf[], uint16_t data) {
-  uint8_t msb=(uint8_t)((data>>8) & 0xff);
-  uint8_t lsb=(uint8_t)((data>>0) & 0xff);
-  buf[0]=msb;
-  buf[1]=lsb;
-}
-
-template<> template<> inline int8_t  I2C_sensor<I2C_sensor_be>::get(uint8_t buf[]              ) {return int8_t (get<uint8_t>(buf));}
-template<> template<> inline void    I2C_sensor<I2C_sensor_be>::put(uint8_t buf[], int8_t  data) {               put(buf,uint8_t(data));}
-template<> template<> inline int16_t I2C_sensor<I2C_sensor_be>::get(uint8_t buf[]              ) {return int16_t(get<uint16_t>(buf));}
-template<> template<> inline void    I2C_sensor<I2C_sensor_be>::put(uint8_t buf[], int16_t data) {               put(buf,uint16_t(data));}
 
 class I2C_sensor_le:public I2C_sensor<I2C_sensor_le> {
 public:
   using I2C_sensor::read;
+  using I2C_sensor::read_be; //only explicitly use the other endian
   using I2C_sensor::write;
-  I2C_sensor_le(uint8_t Laddr,TwoWire& Lport=Wire):I2C_sensor(Laddr,Lport) {};
+  I2C_sensor_le(uint8_t Laddr, TwoWire& Lport=Wire):I2C_sensor(Laddr,Lport) {};
+  template<typename U> U get(uint8_t buf[]) {return get_le<U>(buf);}
+  template<typename U> void put(uint8_t buf[], U data) {put_le<U>(buf,data);}
 };
 
 template<> template<>
@@ -233,12 +229,17 @@ inline void I2C_sensor<I2C_sensor_le>::put(uint8_t buf[], uint16_t data) {
   buf[0]=lsb;
 }
 
+template<> template<> inline int8_t  I2C_sensor<I2C_sensor_le>::get(uint8_t buf[]              ) {return int8_t (get<uint8_t>(buf));}
+template<> template<> inline void    I2C_sensor<I2C_sensor_le>::put(uint8_t buf[], int8_t  data) {               put(buf,uint8_t(data));}
+template<> template<> inline int16_t I2C_sensor<I2C_sensor_le>::get(uint8_t buf[]              ) {return int16_t(get<uint16_t>(buf));}
+template<> template<> inline void    I2C_sensor<I2C_sensor_le>::put(uint8_t buf[], int16_t data) {               put(buf,uint16_t(data));}
+
 template<class T, int bank_reg, int bank_shift, int bank_bits, typename bank_reg_type=uint8_t>
 class I2C_banked_sensor: public T {
 public:
   using T::read;
   using T::write;
-  I2C_banked_sensor(uint8_t Laddr,TwoWire& Lport=Wire):T(Laddr,Lport) {};
+  I2C_banked_sensor(uint8_t Laddr, TwoWire& Lport=Wire):T(Laddr,Lport) {};
   bank_reg_type last_bank=0;
   // Set the current register bank. The current bank number is always
   // the same 2 bits in the same register in all banks. Note that we keep

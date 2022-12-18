@@ -2,7 +2,13 @@
 
   (uuid 029bf7b3-6073-43cb-b93a-aa3ff87c21f2)
 
-  (paper "A4")
+  (paper "USLetter")
+
+  (title_block
+    (title "Rollercoasterometer")
+    (date "2022-10-07")
+    (company "Kwan Systems")
+  )
 
   (lib_symbols
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
@@ -274,11 +280,11 @@
     (uuid eac23b04-c515-442e-ade2-4455e0269c54)
   )
 
-  (symbol (lib_id "KwanSystems:BMP384") (at 137.16 91.44 0)
+  (symbol (lib_id "KwanSystems:BMP384") (at 137.16 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5d7ba253-54f7-44da-8c6e-d76a9133c5c0)
-    (property "Reference" "U2901" (id 0) (at 148.1106 85.1748 0))
-    (property "Value" "BMP384" (id 1) (at 148.1106 87.9499 0))
+    (property "Reference" "U1901" (id 0) (at 148.1106 85.4416 0))
+    (property "Value" "BMP384" (id 1) (at 148.1106 87.9785 0))
     (property "Footprint" "KwanSystems:BMP384" (id 2) (at 137.16 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -303,13 +309,13 @@
     (pin "9" (uuid e02820d9-8ec2-44a1-a266-d614c0cd8c97))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 92.71 82.55 0)
+  (symbol (lib_id "Device:C_Small") (at 92.71 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 893733f8-b07e-4d8a-8907-1902c3f27eec)
-    (property "Reference" "C2901" (id 0) (at 95.0341 81.6478 0)
+    (property "Reference" "C1910" (id 0) (at 95.0341 81.7216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (id 1) (at 95.0341 84.4229 0)
+    (property "Value" "100nF" (id 1) (at 95.0341 84.2585 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 92.71 82.55 0)
@@ -328,13 +334,13 @@
     (pin "2" (uuid c8d62a89-284f-4f50-b929-8868f314d5a5))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 106.68 82.55 0)
+  (symbol (lib_id "Device:C_Small") (at 106.68 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c896d446-7d8d-4f9d-a455-48726431aad2)
-    (property "Reference" "C2910" (id 0) (at 109.0041 81.6478 0)
+    (property "Reference" "C1901" (id 0) (at 109.0041 81.7216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (id 1) (at 109.0041 84.4229 0)
+    (property "Value" "100nF" (id 1) (at 109.0041 84.2585 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 106.68 82.55 0)

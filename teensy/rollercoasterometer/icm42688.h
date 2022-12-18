@@ -23,8 +23,9 @@ public:
     write<uint8_t>(0,DEVICE_CONFIG,device_config);
     delay(50); //wait for part to reset
   }
-  void query(uint8_t buf[]) {
+  bool query(uint8_t* buf) {
 //    read(0,ACCEL_XOUT_H,buf,7*2);
+    return false;
   }
   void query(uint32_t& t,
             int16_t& ax, int16_t& ay, int16_t& az, 

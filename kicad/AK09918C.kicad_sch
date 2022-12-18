@@ -2,7 +2,13 @@
 
   (uuid 85d6321a-5bef-4003-9692-bf4bf59b33cc)
 
-  (paper "A4")
+  (paper "USLetter")
+
+  (title_block
+    (title "Rollercoasterometer")
+    (date "2022-10-07")
+    (company "Kwan Systems")
+  )
 
   (lib_symbols
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
@@ -158,11 +164,11 @@
     (uuid eff342db-fa93-450d-8d76-351addfcd618)
   )
 
-  (symbol (lib_id "KwanSystems:AK09918") (at 160.02 91.44 0)
+  (symbol (lib_id "KwanSystems:AK09918") (at 160.02 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 74b30191-7248-4e66-b943-d2e057ea6f2a)
-    (property "Reference" "U3401" (id 0) (at 160.02 83.7143 0))
-    (property "Value" "AK09918" (id 1) (at 160.02 86.4894 0))
+    (property "Reference" "U1801" (id 0) (at 160.02 83.981 0))
+    (property "Value" "AK09918" (id 1) (at 160.02 86.5179 0))
     (property "Footprint" "KwanSystems:AK09918C" (id 2) (at 160.02 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -181,13 +187,13 @@
     (pin "B2" (uuid 233d3c7e-46a7-488e-b2d9-421abb8e3151))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 173.99 99.06 0)
+  (symbol (lib_id "Device:C_Small") (at 173.99 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 84094117-6050-4491-b786-77678c3614c1)
-    (property "Reference" "C3411" (id 0) (at 176.3141 98.1578 0)
+    (property "Reference" "C1811" (id 0) (at 176.3141 98.2316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (id 1) (at 176.3141 100.9329 0)
+    (property "Value" "100nF" (id 1) (at 176.3141 100.7685 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 173.99 99.06 0)

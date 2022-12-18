@@ -2,7 +2,13 @@
 
   (uuid dbbb3e9f-6468-4a23-8649-726276d32983)
 
-  (paper "A4")
+  (paper "USLetter")
+
+  (title_block
+    (title "Rollercoasterometer")
+    (date "2022-10-07")
+    (company "Kwan Systems")
+  )
 
   (lib_symbols
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
@@ -226,7 +232,7 @@
     (uuid fcfdb85b-9370-4acd-88d3-9d17a4312b89)
   )
 
-  (text "VDD is nominal 2.4V, range 1.7-3.6V\nVDDIO is nominal 1.8, range 1.2-3.6V\n3.3V is safe for both"
+  (text "VDD is nominal 2.4V, range 1.7-3.6V\nVDDIO is nominal 1.8, range 1.2-3.6V\n1.8V and 3.3V is safe for both"
     (at 85.09 53.34 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c6a3bd5e-717e-49a2-9d55-6d666a124b22)
@@ -273,13 +279,13 @@
     (uuid f116480d-20d4-43f1-8cd4-1e53ef5b6de3)
   )
 
-  (symbol (lib_id "Device:C_Small") (at 83.82 64.77 0)
+  (symbol (lib_id "Device:C_Small") (at 83.82 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7aa221dd-5109-4789-b27a-2a154dce2e9c)
-    (property "Reference" "C3355" (id 0) (at 86.1441 63.8678 0)
+    (property "Reference" "C1755" (id 0) (at 86.1441 63.9416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (id 1) (at 86.1441 66.6429 0)
+    (property "Value" "100nF" (id 1) (at 86.1441 66.4785 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 83.82 64.77 0)
@@ -298,13 +304,13 @@
     (pin "2" (uuid 8632aa82-137d-4c54-9707-11c57a7010c3))
   )
 
-  (symbol (lib_id "Sensor_Magnetic:BMM150") (at 127 66.04 0)
+  (symbol (lib_id "Sensor_Magnetic:BMM150") (at 127 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7b073024-7815-4e6f-bd8c-3e79d18afe7a)
-    (property "Reference" "U3301" (id 0) (at 129.0194 75.8095 0)
+    (property "Reference" "U1701" (id 0) (at 129.0194 75.6904 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BMM150" (id 1) (at 129.0194 78.5846 0)
+    (property "Value" "BMM150" (id 1) (at 129.0194 78.2273 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "KwanSystems:BMM150" (id 2) (at 115.57 62.23 0)
@@ -333,10 +339,10 @@
     (pin "E5" (uuid d67686a2-f371-4d0d-b09b-255d33ab2a4d))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 78.74 64.77 0)
+  (symbol (lib_id "Device:C_Small") (at 78.74 64.77 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 80b8c297-b1bf-41c0-93b4-d4f6c4d3cf27)
-    (property "Reference" "C3322" (id 0) (at 72.39 63.5 0)
+    (property "Reference" "C1722" (id 0) (at 72.39 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 72.39 66.04 0)
