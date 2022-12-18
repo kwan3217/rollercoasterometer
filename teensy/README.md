@@ -171,3 +171,52 @@ call.
 ## ICM20948
 The code I had previously written for the Arduino RedBoard works fine. 
 
+## ICM42688
+I got 10 of them, and attached one to a breakout board, christening my toaster oven in the process.
+Visual inspection revealed it to be OK, but it isn't consistently acting like I hoped. For a while,
+the RedBoard was able to read it, but only when I was using the ADC to probe the voltages. Probing with
+an ADC like a voltmeter shouldn't make a difference, but it did. Eventually it stopped responding altogether.
+I am going to put this a side for a while, and hope that it's just this one part.
+
+I wonder if it's a bad solder joint on the pins connecting to the breadboard?
+
+# SD card
+The Teensy library Teensyduino, comes with an SD card library. I was fighting with it for a while,
+where I could get it to create files but not to actually put any data into them. It turns out you
+need to call the `flush()` method on the file object. There is a `sync()` method too, but I haven't
+tried that.
+
+With all the USB and TeensyView stuff turned off, I can get about 2500 packets per second from the
+inertial sensor to the card.
+
+The SD card library that comes with the Teensy supports ExFAT, so we will use it. There is a callback
+that can be used when the system
+needs to know what time it is, so I can hook in the GPS stuff.
+
+# PPS
+The General Purpose Timer (GPT) is the correct solution for high-precision measurement of the PPS signal.
+It supports:
+
+* Capture input
+* 32-bit resolution
+* 60MHz count rate (to match the old Loginator). The clock driving the timer has a fixed divide-by-4 from
+   the core clock, so in order to get 60MHz, we must have some multiple of 240MHz as the main frequency. 600MHz isn't it, but
+   either 480MHz (underclock) or 720MHz (overclock) is fine.
+* Automatic rollover at some value other than 0xFFFFFFFF. We set it to roll over after 60s, that is 3,600,000,000 counts.
+
+There are other timers which show promise, in particular the quad-timer. This is 4x 16-bit timers which
+can be daisy-chained into a 64-bit timer, but cannot be used for capture.
+
+There are two GPT modules, and each module has two capture channels. Unfortunately, GPT1 does not have
+its capture inputs wired to any externally visible pins. The two capture channels for GPT2 can be wired
+to externally visible pins, D15 for channel 1 and D41/A17 for channel 2.
+
+In order to get the timer working, the following things need to be set up:
+
+* Set the clock speed to 480MHz, in the Arduino Tools/CPU Speed menu. This will set up the peripheral clock to run at 120MHz
+* Enable clock gating to GPT2
+* Set the I/O muxes to route the capture input correctly, with proper hysteresis, pull/keep, daisy-chaining, etc.
+* Set the control register in the GPT2, with proper prescale, compare value, reset on compare, capture on the correct channel, etc.
+* DO NOT use `pinMode()` after everything is set up. I'm not sure exactly what this does, but it probably involves taking the pin back for GPIO and therefore taking it away from the GPT. I spent days chasing this.
+
+All of this was done in a separate program called EchoBoth. It was later pulled into the main Rollercoasterometer sketch.
