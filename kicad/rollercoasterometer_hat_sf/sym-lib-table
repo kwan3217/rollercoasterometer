@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "KwanSystems")(type "KiCad")(uri "/home/jeppesen/workspace/rollercoasterometer/kicad/kwan_kicad_lib/KwanSystems.kicad_sym")(options "")(descr ""))
+  (lib (name "Sparkfun_Breakout")(type "KiCad")(uri "/home/jeppesen/workspace/SparkfunEagle/Sparkfun_Breakout.kicad_sym")(options "")(descr ""))
+)
