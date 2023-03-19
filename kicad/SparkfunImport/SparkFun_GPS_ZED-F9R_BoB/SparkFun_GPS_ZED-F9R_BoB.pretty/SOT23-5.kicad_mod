@@ -1,0 +1,88 @@
+(footprint "SOT23-5" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "<b>Small Outline Transistor</b>")
+  (fp_text reference "REF**" (at -0.889 -2.159) (layer "F.SilkS")
+      (effects (font (size 0.373888 0.373888) (thickness 0.032512)) (justify left bottom))
+    (tstamp 57eb70b3-4f78-455a-85a1-b0919e191bfa)
+  )
+  (fp_text value "SOT23-5" (at -0.9525 0.1905) (layer "F.Fab")
+      (effects (font (size 0.373888 0.373888) (thickness 0.032512)) (justify left bottom))
+    (tstamp 94b120cf-47d5-4777-83f2-4e299e5951d1)
+  )
+  (fp_line (start -1.27 0.4294) (end -1.27 -0.4294)
+    (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 1b4e6943-97a6-43a9-b869-9cab4dac7f23))
+  (fp_line (start -0.2684 -0.7088) (end 0.2684 -0.7088)
+    (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp f842067b-f0f6-44e6-a2f0-f0cb26671900))
+  (fp_line (start 1.27 -0.4294) (end 1.27 0.4294)
+    (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 057bb8f7-9743-46c0-aa83-b4ca70f6e0bd))
+  (fp_circle (center -1.6002 1.016) (end -1.5367 1.016)
+    (stroke (width 0.127) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 1066f174-d06f-4c9e-88cc-55794f778ae4))
+  (fp_line (start -1.4 -0.8) (end -1.4 0.8)
+    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp bd6b700a-6c06-48dd-80b0-f857eb638b4c))
+  (fp_line (start -1.4 -0.8) (end 1.4 -0.8)
+    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp d37fd5e5-e47c-4d75-a135-0df61b03dd89))
+  (fp_line (start 1.4 -0.8) (end 1.4 0.8)
+    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp 0a93838e-ec69-4e27-afcd-c0adddfeebbb))
+  (fp_line (start 1.4 0.8) (end -1.4 0.8)
+    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp f834bb48-e429-4709-9d6b-67ce6b1f68cc))
+  (fp_poly
+    (pts
+      (xy -1.2 -0.85)
+      (xy -0.7 -0.85)
+      (xy -0.7 -1.5)
+      (xy -1.2 -1.5)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 8ec59f0c-869e-427c-9ee1-b72eee6a1b9d))
+  (fp_poly
+    (pts
+      (xy -1.2 1.5)
+      (xy -0.7 1.5)
+      (xy -0.7 0.85)
+      (xy -1.2 0.85)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp c45992e7-3312-4ff3-b075-8b43eb390675))
+  (fp_poly
+    (pts
+      (xy -0.25 1.5)
+      (xy 0.25 1.5)
+      (xy 0.25 0.85)
+      (xy -0.25 0.85)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 8c3cadff-7e17-4a79-ac7e-211701f63e86))
+  (fp_poly
+    (pts
+      (xy 0.7 -0.85)
+      (xy 1.2 -0.85)
+      (xy 1.2 -1.5)
+      (xy 0.7 -1.5)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 0640f995-b0e6-423c-a53d-bf8405026380))
+  (fp_poly
+    (pts
+      (xy 0.7 1.5)
+      (xy 1.2 1.5)
+      (xy 1.2 0.85)
+      (xy 0.7 0.85)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp c65aaff7-55c1-4d58-a4fd-51d423b2ac09))
+  (pad "1" smd rect (at -0.95 1.3001) (size 0.55 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 6883a4e8-67db-42d9-ad8a-390d48646883))
+  (pad "2" smd rect (at 0 1.3001) (size 0.55 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 9a60e5ed-8fd0-481c-8a0b-32102c4a3947))
+  (pad "3" smd rect (at 0.95 1.3001) (size 0.55 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp ffa32980-ea81-445c-97db-b172d72023c7))
+  (pad "4" smd rect (at 0.95 -1.3001) (size 0.55 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp e2e12008-728e-490b-a3c3-0f84d9e02cd7))
+  (pad "5" smd rect (at -0.95 -1.3001) (size 0.55 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp c87c7b7d-5979-4c0c-8ce9-2b2fe930b565))
+  (model ":KICAD7_3DMODEL_DIR:Package_TO_SOT_SMD.3dshapes/SOT-23-5.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
+)

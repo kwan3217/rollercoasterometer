@@ -1,0 +1,83 @@
+(footprint "SC70" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "<h3>SC-70</h3>\n<p>Specifications:\n<ul><li>Pin count: 5</li>\n</ul></p>\n<p><a href=”https://www.exar.com/content/document.ashx?id=654”>Datasheet referenced for footprint</a></p>\n<p>Example device(s):\n<ul><li>V_REG_SP6214</li>\n</ul></p>")
+  (fp_text reference "REF**" (at -1.27 0 90) (layer "F.SilkS")
+      (effects (font (size 0.48768 0.48768) (thickness 0.12192)) (justify bottom))
+    (tstamp 17016b0b-7d3b-44ae-9a2b-f46b6de0ef0d)
+  )
+  (fp_text value "SC70" (at 1.27 0 90) (layer "F.Fab")
+      (effects (font (size 0.48768 0.48768) (thickness 0.12192)) (justify top))
+    (tstamp 392508de-28dc-4dd9-97a1-5b8909bde24a)
+  )
+  (fp_poly
+    (pts
+      (xy -0.85 -0.45)
+      (xy -0.45 -0.45)
+      (xy -0.45 -1.2)
+      (xy -0.85 -1.2)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Paste") (tstamp e0a9c070-e9ab-456c-a43f-408e89266999))
+  (fp_poly
+    (pts
+      (xy -0.8382 1.1684)
+      (xy -0.508 1.1684)
+      (xy -0.508 0.4826)
+      (xy -0.8382 0.4826)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Paste") (tstamp 9288259d-d225-4c55-9dc7-cd2510fdf106))
+  (fp_poly
+    (pts
+      (xy -0.1651 1.1684)
+      (xy 0.1651 1.1684)
+      (xy 0.1651 0.4826)
+      (xy -0.1651 0.4826)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Paste") (tstamp 87c9cce6-36b8-4281-b77d-2dc332540ed6))
+  (fp_poly
+    (pts
+      (xy 0.45 -0.45)
+      (xy 0.85 -0.45)
+      (xy 0.85 -1.2)
+      (xy 0.45 -1.2)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Paste") (tstamp 60af26ab-e789-4885-92a9-4a92a5073ec9))
+  (fp_poly
+    (pts
+      (xy 0.508 1.1684)
+      (xy 0.8382 1.1684)
+      (xy 0.8382 0.4826)
+      (xy 0.508 0.4826)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Paste") (tstamp 5ba77069-13b8-48bc-b9b3-23b4a110641e))
+  (fp_line (start -1 -0.625) (end 1 -0.625)
+    (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp d3ed3640-8b59-4d47-9ad8-e6d8ccd91cb5))
+  (fp_line (start -1 0.625) (end -1 -0.625)
+    (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 59521b51-0a85-4548-8a9a-b43c08432798))
+  (fp_line (start -1 0.625) (end 1 0.625)
+    (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 001a5314-a985-4290-8dab-2a6652487822))
+  (fp_line (start 1 -0.625) (end 1 0.625)
+    (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 1f4981b7-bb8a-4cd8-afd7-86f07edd7ec3))
+  (fp_line (start -1 -0.625) (end 1 -0.625)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp a789f077-f076-4d62-a9b0-bab12f56863b))
+  (fp_line (start -1 0.625) (end -1 -0.625)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp afeb9e63-99bc-4795-b040-052bc74d6810))
+  (fp_line (start -1 0.625) (end 1 0.625)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp b56f2f05-26ca-4e0a-8fed-4297eb178620))
+  (fp_line (start 1 -0.625) (end 1 0.625)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp bcb14ebe-5e01-4413-afa9-17e33ccb269c))
+  (pad "1" smd rect (at -0.65 0.825) (size 0.4 0.75) (layers "F.Cu" "F.Mask")
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 54c5d786-672d-4be6-ad0f-6a5d3c305aad))
+  (pad "2" smd rect (at 0 0.825) (size 0.4 0.75) (layers "F.Cu" "F.Mask")
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 6376adc2-07de-4c87-a6d5-ba9466d98fc6))
+  (pad "3" smd rect (at 0.65 0.825) (size 0.4 0.75) (layers "F.Cu" "F.Mask")
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 6f9b2471-c7e3-4cff-9948-c4e1d1e23acf))
+  (pad "4" smd rect (at 0.65 -0.825) (size 0.4 0.75) (layers "F.Cu" "F.Mask")
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 11cd37c8-42c0-4d5b-8314-7d7e6f74c1b3))
+  (pad "5" smd rect (at -0.65 -0.825) (size 0.4 0.75) (layers "F.Cu" "F.Mask")
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 10c7eb6f-db7b-4aac-b298-dc3bea5b9811))
+)
