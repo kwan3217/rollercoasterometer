@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name "KwanSystems")(type "KiCad")(uri "/home/jeppesen/workspace/rollercoasterometer/kicad/kwan_kicad_lib/KwanSystems.pretty")(options "")(descr ""))
+  (version 7)
+  (lib (name "KwanSystems")(type "KiCad")(uri "${KIPRJMOD}/../kwan_kicad_lib/KwanSystems.pretty")(options "")(descr ""))
+  (lib (name "SparkfunBreakout")(type "KiCad")(uri "${KIPRJMOD}/../kwan_kicad_lib/SparkfunBreakout.pretty")(options "")(descr ""))
 )
