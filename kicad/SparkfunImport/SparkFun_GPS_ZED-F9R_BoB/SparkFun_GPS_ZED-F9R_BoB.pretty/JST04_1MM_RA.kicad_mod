@@ -33,7 +33,7 @@
     (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp fd93c142-a15c-4aed-a531-76a3566cc449))
   (pad "NC2" smd rect (at -2.8 3.675) (size 1.2 2) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp d539d414-13a9-4620-832c-e9a7bef71b9e))
-  (model "${KWAN_KICAD_LIB}/stp/qwiic.step"
+  (model "${KWAN_KICAD_LIB}/KwanSystems.pretty/stp/qwiic.step"
     (offset (xyz 0 -0.7 -0.3))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "KwanSystems")(type "KiCad")(uri "C:/Users/Kellie/Documents/KiCad/7.0/projects/rollercoasterometer/kicad/kwan_kicad_lib/KwanSystems.kicad_sym")(options "")(descr ""))
-  (lib (name "Sparkfun_Breakout")(type "KiCad")(uri "C:/Users/Kellie/Documents/KiCad/7.0/projects/rollercoasterometer/kicad/kwan_kicad_lib/Sparkfun_Breakout.kicad_sym")(options "")(descr ""))
+  (lib (name "KwanSystems")(type "KiCad")(uri "${KIPRJMOD}/../kwan_kicad_lib/KwanSystems.kicad_sym")(options "")(descr ""))
+  (lib (name "Sparkfun_Breakout")(type "KiCad")(uri "${KIPRJMOD}/../kwan_kicad_lib/Sparkfun_Breakout.kicad_sym")(options "")(descr ""))
 )

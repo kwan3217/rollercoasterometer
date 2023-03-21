@@ -1763,7 +1763,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/6f6c8aa2-8e56-4906-8de1-e2f6a247be06")
-    (fp_text reference "U3" (at -3.802 -2.534331) (layer "F.SilkS")
+    (fp_text reference "U3" (at -3.802 -2.534331) (layer "F.SilkS") hide
         (effects (font (size 1.225133 1.225133) (thickness 0.044867)) (justify left))
       (tstamp 4ff1f76a-ec70-4094-962d-c956552f9022)
     )
@@ -1924,7 +1924,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/4b93af10-f81a-4dc7-bd02-a8c0c85ea93c")
-    (fp_text reference "U2" (at -2.112 -9.38) (layer "F.SilkS")
+    (fp_text reference "U2" (at -2.112 -9.38) (layer "F.SilkS") hide
         (effects (font (size 0.943917 0.943917) (thickness 0.056083)) (justify left))
       (tstamp 099e7443-1e46-4f98-8a70-5f3ffce119cf)
     )
@@ -2171,7 +2171,7 @@
       (net 66 "Net-(U2-TIMEPULSE)") (pinfunction "TIMEPULSE") (pintype "output") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 4a03fcfa-4295-4c17-860d-30fe21af25c0))
     (pad "P54" smd rect (at -9.912 6.77 270) (size 0.8 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 91 "unconnected-(U2-RSVD-PadP54)") (pinfunction "RSVD") (pintype "no_connect") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 2a49088f-e5af-4344-8f0a-e4a4e76c82db))
-    (model "${KWAN_KICAD_LIB}/stp/u-blox ZED-F9P.stp"
+    (model "${KWAN_KICAD_LIB}/KwanSystems.pretty/stp/u-blox ZED-F9P.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2811,7 +2811,7 @@
       (net 16 "VIN") (pinfunction "VBUS") (pintype "bidirectional") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp aa8f34cb-f735-410e-a351-e180c8590d5a))
     (pad "VBUS2" smd rect (at 2.45 0.34 180) (size 0.6 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 16 "VIN") (pinfunction "VBUS") (pintype "bidirectional") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 3bc42522-737a-4e2a-91ac-8bcb3a01c07b))
-    (model "${KWAN_KICAD_LIB}/stp/USB4105-GF-A--3DModel-STEP-46669.STEP"
+    (model "${KWAN_KICAD_LIB}/KwanSystems.pretty/stp/USB4105-GF-A--3DModel-STEP-46669.STEP"
       (offset (xyz 0 -3.9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -2854,7 +2854,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/0be8154a-5a4a-4c3a-9a62-97cf1378b751")
-    (fp_text reference "U5" (at -0.889 -2.159) (layer "F.SilkS")
+    (fp_text reference "U5" (at -0.889 -2.159) (layer "F.SilkS") hide
         (effects (font (size 0.376489 0.376489) (thickness 0.029911)) (justify right))
       (tstamp 8654988a-8c78-4622-8cd1-4c2c1900467b)
     )
@@ -2949,11 +2949,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/80c5f255-9ac6-4624-a79b-abb68e0729e5")
     (attr smd)
-    (fp_text reference "R1" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R1" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 43187bba-2ad7-48c7-87bc-ce803c165777)
     )
-    (fp_text value "3.3KOHM-0603-1/10W-1%" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "3.3KOHM-0603-1/10W-1%" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c4e74e4c-8c45-42d7-9fab-95f57daaeabc)
     )
@@ -3001,11 +3001,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/122b109c-fd40-4cdb-ab15-2f7ff43863d5")
     (attr smd)
-    (fp_text reference "R6" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R6" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1325ec46-302c-4964-86b2-e4fb52c468d2)
     )
-    (fp_text value "470" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "470" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ad5c9bef-2343-4777-a86c-60dc46bd08e3)
     )
@@ -5300,7 +5300,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/1874c889-30ef-4b9e-b916-737fd0b68727")
-    (fp_text reference "BT1" (at -1.016 -2.921 90) (layer "F.SilkS")
+    (fp_text reference "BT1" (at -1.016 -2.921 90) (layer "F.SilkS") hide
         (effects (font (size 0.352958 0.352958) (thickness 0.028042)) (justify right))
       (tstamp 3d35f701-41a5-4544-b4ac-07a080541172)
     )
@@ -5377,7 +5377,7 @@
       (net 3 "V_BATT") (pinfunction "+") (pintype "power_in") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp fca89233-7a65-4cbb-b095-6767e08ff518))
     (pad "-" smd rect (at 0.6 1.85 270) (size 4.2 1.7) (layers "F.Cu")
       (net 1 "GND") (pinfunction "-") (pintype "power_in") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 945ce24c-be95-4e9a-9a35-907f66476f05))
-    (model "${KWAN_KICAD_LIB}/stp/ML414H IV01E--3DModel-STEP-56544.STEP"
+    (model "${KWAN_KICAD_LIB}/KwanSystems.pretty/stp/ML414H IV01E--3DModel-STEP-56544.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -6451,11 +6451,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/75642d17-5f26-4421-a7ab-aced4af7ba32")
     (attr smd)
-    (fp_text reference "R7" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R7" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b706017b-f4f3-48c0-984f-5df7b624d569)
     )
-    (fp_text value "910OHM-0603-1/10W-5%" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "910OHM-0603-1/10W-5%" (at 0 1.43 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 80501c87-cc9d-4d3b-b981-f8653759f6ae)
     )
@@ -8073,11 +8073,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/115b29b7-4580-4f09-af6d-8a32ab8af9e4")
     (attr smd)
-    (fp_text reference "C7" (at 0 -1.16 90) (layer "F.SilkS")
+    (fp_text reference "C7" (at 0 -1.16 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 99480b06-fa98-4aad-bbda-a6d21c18f030)
     )
-    (fp_text value "0.1UF-0402-10V-10%-X7R" (at 0 1.16 90) (layer "F.Fab")
+    (fp_text value "0.1UF-0402-10V-10%-X7R" (at 0 1.16 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8857678f-b84a-42c1-a53c-e9879cb29dca)
     )
@@ -8125,11 +8125,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/c851482a-7778-4a72-8410-72c188c3a085")
     (attr smd)
-    (fp_text reference "R20" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R20" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c7673d93-2315-4c3f-a5f4-16b8c36356b8)
     )
-    (fp_text value "1KOHM-0402-1/16W-1%" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "1KOHM-0402-1/16W-1%" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ab8789f4-74e5-426d-bbed-196bb54e2770)
     )
@@ -9576,7 +9576,7 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/b1e30abe-69c5-4e89-803c-fe3380519eea")
     (attr smd)
-    (fp_text reference "R14" (at 0 -1.17 90) (layer "F.SilkS")
+    (fp_text reference "R14" (at 0 -1.17 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 248faf29-1134-49c3-8273-714fd223e7dc)
     )
@@ -9628,11 +9628,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/ea72ce4f-20ba-4470-823d-9284d4079043")
     (attr smd)
-    (fp_text reference "C3" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C3" (at 0 -1.16) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0f85a5e1-d59d-4efe-a47d-7da2c9355288)
     )
-    (fp_text value "1nF" (at 0 1.16) (layer "F.Fab")
+    (fp_text value "1nF" (at 0 1.16) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d4505394-c47b-4000-a6b5-aad56f6d657d)
     )
@@ -11275,7 +11275,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/3d988da0-12a2-405e-b200-3ec89d5805ef")
-    (fp_text reference "J5" (at -1.27 -1.397 90) (layer "F.SilkS")
+    (fp_text reference "J5" (at -1.27 -1.397 90) (layer "F.SilkS") hide
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify right))
       (tstamp 605c095e-7b2f-4719-b370-4604e77a1d7d)
     )
@@ -12819,7 +12819,7 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/02947264-5d4e-44c2-83ae-a1bb42bf334c")
     (attr smd)
-    (fp_text reference "R4" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R4" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 084ee276-f05b-4dfd-915b-de2eaac52aa8)
     )
@@ -14967,7 +14967,7 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/4a0c7891-f270-47a4-a680-66dbc87b75f0")
     (attr smd)
-    (fp_text reference "C10" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C10" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d7f452d2-794c-4e9b-b463-2ba0fdcc2833)
     )
@@ -16355,11 +16355,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/a312252c-f632-4ba1-b795-0787d0df3cf2")
     (attr smd)
-    (fp_text reference "D6" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "D6" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7819a5e3-a9ee-48ff-be52-d959ddd3032d)
     )
-    (fp_text value "BLUE" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "BLUE" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5ec79318-3f0e-4a86-b2d3-1b790a4b3425)
     )
@@ -16409,11 +16409,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/e16c4308-c617-4636-8baf-829e6b5e56f1")
     (attr smd)
-    (fp_text reference "C1" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C1" (at 0 -1.16) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 667233eb-ad02-419a-9407-4ab43a316f6f)
     )
-    (fp_text value "0.1UF-0402-10V-10%-X7R" (at 0 1.16) (layer "F.Fab")
+    (fp_text value "0.1UF-0402-10V-10%-X7R" (at 0 1.16) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp deeef96c-4212-41fc-9d8e-8b2586dfb867)
     )
@@ -17639,7 +17639,7 @@
     (tstamp 516dc6cf-7b1d-412a-a4fc-a237934a8cd8)
     (at 2.54 48.2854)
     (descr "<h3>Standoff (#4 Screw) - Tight fit around screw body</h3>\n<p>This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.</p>\n<h4>Devices Using</h4>\n<ul><li>STAND-OFF</li></ul>")
-    (fp_text reference "H1" (at 0 -1.651) (layer "F.SilkS")
+    (fp_text reference "H1" (at 0 -1.651) (layer "F.SilkS") hide
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify left))
       (tstamp 72d1bca4-9ae6-4612-8327-3a6b2045a377)
     )
@@ -17661,11 +17661,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/8e6a85f9-0d7c-4ac4-9b9b-62a7dbc3fb4b")
     (attr smd)
-    (fp_text reference "R23" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R23" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1bae0429-92fc-40d9-9912-897dccc58983)
     )
-    (fp_text value "2.2KOHM-0603-1/10W-1%" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "2.2KOHM-0603-1/10W-1%" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6268889a-efe4-46e8-8c34-f7346ebd2e5f)
     )
@@ -17711,7 +17711,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/4727b74f-0287-44ec-9d15-3c254bdca8e4")
-    (fp_text reference "J7" (at -1.27 -1.397) (layer "F.SilkS")
+    (fp_text reference "J7" (at -1.27 -1.397) (layer "F.SilkS") hide
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify right))
       (tstamp 1d54cfc7-158d-454d-b472-63f84339f8a2)
     )
@@ -26066,7 +26066,7 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/554dd012-7aa8-4c37-82a0-058e364c23c5")
     (attr smd)
-    (fp_text reference "R16" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R16" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 721770be-62af-4ec3-bf3e-d67c686f5bd0)
     )
@@ -26116,7 +26116,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/39eeaa24-5c33-4db7-aa15-79b1d20adf2e")
-    (fp_text reference "J1" (at -1.27 -2.54 90) (layer "F.SilkS")
+    (fp_text reference "J1" (at -1.27 -2.54 90) (layer "F.SilkS") hide
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify left))
       (tstamp d4ffa352-0d1c-4eff-a92a-16b24d9ab0f3)
     )
@@ -26149,7 +26149,7 @@
       (net 20 "/SparkFun_GPS_ZED-F9R_BoB_1/RF_IN") (pinfunction "SIGNAL") (pintype "bidirectional") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 6bf209f4-ea5c-4814-a4b9-28f55b4ce453))
     (pad "NC" smd rect (at -1.525 0 90) (size 1.05 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp f0ca30d1-0aa7-4a2b-b5c6-3f39de06dcfd))
-    (model "${KWAN_KICAD_LIB}/stp/U.FL-R-SMT-1.stp"
+    (model "${KWAN_KICAD_LIB}/KwanSystems.pretty/stp/U.FL-R-SMT-1.stp"
       (offset (xyz -1 55.25 22.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 90))
@@ -26184,11 +26184,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/6cfac572-47ac-42bc-aa47-9c47eff16a6d")
     (attr smd)
-    (fp_text reference "D4" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "D4" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9201e010-049a-4ca3-94c6-193fbe76db1c)
     )
-    (fp_text value "RED" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "RED" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3f83356f-51e6-4df5-92a8-c393b0d3ade2)
     )
@@ -27538,7 +27538,7 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/e223004d-9e95-4569-9800-3e1e64210fc9")
     (attr smd)
-    (fp_text reference "R12" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R12" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f5a110f1-2443-44c4-a853-f2bebfeb7f79)
     )
@@ -28915,7 +28915,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/47c08b5f-0ead-4f4a-ba3e-cfb015ae74fc")
-    (fp_text reference "J6" (at -1.27 -1.397 90) (layer "F.SilkS")
+    (fp_text reference "J6" (at -1.27 -1.397 90) (layer "F.SilkS") hide
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify left))
       (tstamp 7c81182f-5a61-4bb5-b616-61ae66069ba1)
     )
@@ -30176,7 +30176,7 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/9f1cea78-67c5-4825-bf78-90f8a41d3c40")
     (attr smd)
-    (fp_text reference "C9" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C9" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9c7389fb-6c82-49e9-9bdc-0f6b4bfe69e9)
     )
@@ -30226,7 +30226,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/b8574fa7-fa72-4b50-b8ee-22f295f17753")
-    (fp_text reference "$1_25_$_2020-03-30_22-52-05" (at 0 -1.651) (layer "F.SilkS")
+    (fp_text reference "$1_25_$_2020-03-30_22-52-05" (at 0 -1.651) (layer "F.SilkS") hide
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify left))
       (tstamp a967320c-55d2-4580-997a-5998e138a678)
     )
@@ -31872,11 +31872,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/0b7e60b0-e280-4719-941d-bfb366d3a19f")
     (attr smd)
-    (fp_text reference "D7" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "D7" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 74813316-827b-4e1b-9cbe-f2bff220ae41)
     )
-    (fp_text value "BLUE" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "BLUE" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fda18879-01e2-44e1-b506-5d5bc6167f26)
     )
@@ -32965,11 +32965,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/ab67a98e-3479-494d-960c-83e26509952c")
     (attr smd)
-    (fp_text reference "C6" (at 0 -1.16 90) (layer "F.SilkS")
+    (fp_text reference "C6" (at 0 -1.16 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 404fb5e7-7730-4cad-8060-a871e9992ea1)
     )
-    (fp_text value "0.1UF-0402-10V-10%-X7R" (at 0 1.16 90) (layer "F.Fab")
+    (fp_text value "0.1UF-0402-10V-10%-X7R" (at 0 1.16 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4e0b1efb-1ce8-494c-9ef0-efcfde1c2f1b)
     )
@@ -34159,37 +34159,37 @@
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/22fb5219-5f3d-40a8-96aa-06fd03ffba13")
     (fp_text reference "J4" (at -1.397 2.159 90) (layer "F.SilkS")
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify left))
-      (tstamp b248a8de-ecb0-4866-99ec-5c3580066515)
+      (tstamp abb5996a-11b2-4af4-9f9b-58fc91529c5a)
     )
     (fp_text value "QWIIC_RIGHT_ANGLE" (at -1.651 3.302 90) (layer "F.Fab")
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify left))
-      (tstamp 22826b6d-290d-4487-8fd5-89470b061bc9)
+      (tstamp bf5a295d-159c-4ef9-9190-1e86adda6b9d)
     )
     (fp_line (start -3 0.35) (end -2.25 0.35)
-      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp cf5d7d47-31b1-4abe-9519-17e00e540703))
+      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 31b96827-349a-4e4a-ad48-d6bb033c2dac))
     (fp_line (start -3 2) (end -3 0.35)
-      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp a0b0e0c2-360e-4790-97d6-6f3bd7783ab4))
+      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp b80da9f6-0032-4dfa-ad64-05966c40dcb1))
     (fp_line (start -1.5 4.6) (end 1.5 4.6)
-      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 1ba3eaca-f420-4160-a44b-9f93a4764ad8))
+      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 2eb0402f-f82f-41aa-b492-07f980166db8))
     (fp_line (start 2.25 0.35) (end 3 0.35)
-      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp c1e78216-53ae-4965-ab2f-65bee3258331))
+      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp a6149327-c8e5-400a-86a5-b36df16defef))
     (fp_line (start 3 0.35) (end 3 2)
-      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 66cbb83f-bfdb-476a-9c9d-b6ea0e4d6751))
+      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 77828ebc-8cf9-43c9-b7eb-68e4ef08d7ac))
     (fp_circle (center -2.5 -0.3) (end -2.3984 -0.3)
-      (stroke (width 0.2032) (type solid)) (fill none) (layer "F.SilkS") (tstamp bc08b0a2-dc25-40e2-8185-b74cf9a622b8))
+      (stroke (width 0.2032) (type solid)) (fill none) (layer "F.SilkS") (tstamp 8894983b-b15c-4ee9-a605-c29431fd5fc6))
     (pad "1" smd rect (at -1.5 0 90) (size 0.6 1.35) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 1 "GND") (pinfunction "1") (pintype "power_in") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 07f2edec-6a8c-4379-af14-43da87185255))
+      (net 1 "GND") (pinfunction "1") (pintype "power_in") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 77022091-380a-4d50-be33-5fed5cadc248))
     (pad "2" smd rect (at -0.5 0 90) (size 0.6 1.35) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 2 "3.3V") (pinfunction "2") (pintype "power_in") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 934a7a49-2d1c-4a06-8871-1fe88e33aea3))
+      (net 2 "3.3V") (pinfunction "2") (pintype "power_in") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 30c2bd6b-2bc4-4574-8e2b-45e00a128244))
     (pad "3" smd rect (at 0.5 0 90) (size 0.6 1.35) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 25 "/SparkFun_GPS_ZED-F9R_BoB_1/SDA{slash}~{CS}") (pinfunction "3") (pintype "passive") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 2b885afc-c868-4c4d-aeb2-2c6975313905))
+      (net 25 "/SparkFun_GPS_ZED-F9R_BoB_1/SDA{slash}~{CS}") (pinfunction "3") (pintype "passive") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp d8f1bd85-dc2e-472c-a3f0-78f28de24173))
     (pad "4" smd rect (at 1.5 0 90) (size 0.6 1.35) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 24 "/SparkFun_GPS_ZED-F9R_BoB_1/SCL{slash}CLK") (pinfunction "4") (pintype "passive") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 2671ddb3-a0ce-4917-ba23-766e30924c8e))
+      (net 24 "/SparkFun_GPS_ZED-F9R_BoB_1/SCL{slash}CLK") (pinfunction "4") (pintype "passive") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp c0f85b94-364d-4b3c-a9c3-04b1ac33e847))
     (pad "NC1" smd rect (at 2.8 3.675 90) (size 1.2 2) (layers "F.Cu" "F.Paste" "F.Mask")
-      (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp a3daba80-17bd-4b13-840d-804b567b8fb5))
+      (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp d8d0da18-c178-4655-8d8d-9af9843ed31d))
     (pad "NC2" smd rect (at -2.8 3.675 90) (size 1.2 2) (layers "F.Cu" "F.Paste" "F.Mask")
-      (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 2791e071-b799-41e8-a5ff-10218acaa22b))
-    (model "${KWAN_KICAD_LIB}/stp/qwiic.step"
+      (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp d60776a0-3d2f-423a-8cec-a2c6db7f63a4))
+    (model "${KWAN_KICAD_LIB}/KwanSystems.pretty/stp/qwiic.step"
       (offset (xyz 0 -0.7 -0.3))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -35852,7 +35852,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/b5d61e26-05eb-4f19-b166-6cb064bf6a35")
-    (fp_text reference "U4" (at -3.802 -2.534332 90) (layer "F.SilkS")
+    (fp_text reference "U4" (at -3.802 -2.534332 90) (layer "F.SilkS") hide
         (effects (font (size 1.225133 1.225133) (thickness 0.044867)) (justify left))
       (tstamp 57351967-49b8-4df9-a6ad-535b041ce578)
     )
@@ -36015,11 +36015,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/e466acb5-7b7c-4e0d-be1a-328746fddec3")
     (attr smd)
-    (fp_text reference "R13" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R13" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1f03ac28-e042-4888-849f-2935e270b1f7)
     )
-    (fp_text value "33OHM-0603-1/10W-1%" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "33OHM-0603-1/10W-1%" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d410fe39-2b57-43b0-9133-5d0ba9618a35)
     )
@@ -36067,11 +36067,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/8ea05731-28b1-44aa-ad4a-f00da2703e68")
     (attr smd)
-    (fp_text reference "C8" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C8" (at 0 -1.16) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3d0754aa-74ae-4723-891f-e62915b512f0)
     )
-    (fp_text value "47PF-0402-25V-5%-X7R" (at 0 1.16) (layer "F.Fab")
+    (fp_text value "47PF-0402-25V-5%-X7R" (at 0 1.16) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b079ea67-ef72-4fb7-a367-b9109be8bbfb)
     )
@@ -36119,11 +36119,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/b6015161-90af-40af-8e93-0a9b8f2d1833")
     (attr smd)
-    (fp_text reference "R5" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R5" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7e6a8508-d029-4d97-9dbd-e76ff97ed7c5)
     )
-    (fp_text value "470" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "470" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fe514205-acc9-4680-84ce-ff8470bfaafe)
     )
@@ -36171,11 +36171,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/7d5bb24d-833f-471b-8c39-3b348a812289")
     (attr smd)
-    (fp_text reference "D5" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "D5" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 688a8a69-10bf-409a-8f4d-f3ff5f79271f)
     )
-    (fp_text value "BLUE" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "BLUE" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b282b411-e8d3-4ab9-be2c-af6e05aa5c72)
     )
@@ -36225,11 +36225,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/ab511104-f03d-405d-a41e-e8b488e98a97")
     (attr smd)
-    (fp_text reference "C2" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C2" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5d2804f1-541e-4993-801e-8755e7f7c8fc)
     )
-    (fp_text value "1.0UF-0603-16V-10%-X7R" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "1.0UF-0603-16V-10%-X7R" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 443e2faa-88f9-4951-b16e-4cf53c7a0e50)
     )
@@ -39265,7 +39265,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/8dc85af4-a9ef-425e-87d9-2117969e0fcb")
-    (fp_text reference "D8" (at 0 -0.762 90) (layer "F.SilkS")
+    (fp_text reference "D8" (at 0 -0.762 90) (layer "F.SilkS") hide
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify right))
       (tstamp f11bc060-8274-49ea-aa2d-ac8babc41f59)
     )
@@ -39299,7 +39299,7 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/4efaf304-bcec-421c-aec8-2231ff33e0b5")
     (attr smd)
-    (fp_text reference "R15" (at 0 -1.17 90) (layer "F.SilkS")
+    (fp_text reference "R15" (at 0 -1.17 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 45789ed7-a18b-4e1e-94bb-9a7a83364206)
     )
@@ -40433,7 +40433,7 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/e6af1871-7db9-40b3-86b2-aef608f775e7")
     (attr smd)
-    (fp_text reference "R3" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R3" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 57e8cfea-8fbe-4167-91b4-f864f4266196)
     )
@@ -40485,11 +40485,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/56c2dbe7-ebe7-45e4-9cde-3f01a80f56ce")
     (attr smd)
-    (fp_text reference "C4" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C4" (at 0 -1.16) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 23143916-2138-4bed-9363-25810b03f5e5)
     )
-    (fp_text value "1nF" (at 0 1.16) (layer "F.Fab")
+    (fp_text value "1nF" (at 0 1.16) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ddde8653-bf23-40ce-bf5a-34203857db15)
     )
@@ -40532,7 +40532,7 @@
     (tstamp afdc2858-6de1-45ac-95a8-a844759defe4)
     (at 40.64 48.2854)
     (descr "<h3>Standoff (#4 Screw) - Tight fit around screw body</h3>\n<p>This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.</p>\n<h4>Devices Using</h4>\n<ul><li>STAND-OFF</li></ul>")
-    (fp_text reference "H4" (at 0 -1.651) (layer "F.SilkS")
+    (fp_text reference "H4" (at 0 -1.651) (layer "F.SilkS") hide
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify left))
       (tstamp 863989b2-72ea-4160-8044-3f6b12dce246)
     )
@@ -41926,11 +41926,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/797aa371-7598-4a0f-975a-c862c9894eae")
     (attr smd)
-    (fp_text reference "R19" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R19" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 17dce6f8-7e09-46e4-9ba9-dbaf5201914c)
     )
-    (fp_text value "1KOHM-0402-1/16W-1%" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "1KOHM-0402-1/16W-1%" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c49d7cf2-fc2e-41c5-b4d9-c5dda58e7d9d)
     )
@@ -42294,11 +42294,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/a331e1a3-d6bd-4b5e-b3da-072d3fd53ce8")
     (attr smd)
-    (fp_text reference "R18" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R18" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6ce4d903-ab35-49ee-8909-4bc3e6c278a1)
     )
-    (fp_text value "1KOHM-0402-1/16W-1%" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "1KOHM-0402-1/16W-1%" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bf2891e0-3098-4e1e-a90c-ed44f6dcf5c3)
     )
@@ -42346,7 +42346,7 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/4afbdb8a-6bdf-476b-831b-9bf54030a693")
     (attr smd)
-    (fp_text reference "R24" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R24" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ca4d3358-9294-4575-98b9-1633e0ea3726)
     )
@@ -42398,11 +42398,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/83d0d475-54f4-4957-9e35-71fbc822cd39")
     (attr smd)
-    (fp_text reference "R17" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R17" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f66c8f36-2aa6-45bb-8b40-914b046387d2)
     )
-    (fp_text value "1KOHM-0402-1/16W-1%" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "1KOHM-0402-1/16W-1%" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ad023e6d-9691-40f3-84fd-24e60157c59d)
     )
@@ -46008,7 +46008,7 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/51a7ee6d-79cf-43ce-b1d7-fd7f602b1063")
     (attr smd)
-    (fp_text reference "R21" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R21" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 70118eae-a467-4e29-8fce-e8eb8feb503f)
     )
@@ -47420,7 +47420,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/42da7b29-9e76-4b4e-97ad-4a4780797a64")
-    (fp_text reference "FB1" (at 0 -0.762) (layer "F.SilkS")
+    (fp_text reference "FB1" (at 0 -0.762) (layer "F.SilkS") hide
         (effects (font (size 0.497434 0.497434) (thickness 0.112166)) (justify left))
       (tstamp e736a057-4362-4695-94c1-c4d89035f38d)
     )
@@ -47483,11 +47483,11 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/fa3c65dd-0207-4950-bab9-5514566b60cc")
     (attr smd)
-    (fp_text reference "R2" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R2" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4c204f9e-5a22-49dc-8e43-d856108ef971)
     )
-    (fp_text value "3.3KOHM-0603-1/10W-1%" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "3.3KOHM-0603-1/10W-1%" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 02b27776-767d-4a36-8a7c-7f8f6e74463e)
     )
@@ -47675,7 +47675,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/1f75bed4-7753-401f-8658-3af7ed557057")
-    (fp_text reference "D3" (at 0 -1.1 90) (layer "F.SilkS")
+    (fp_text reference "D3" (at 0 -1.1 90) (layer "F.SilkS") hide
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify right))
       (tstamp 71768e5a-4eac-480c-b680-81589569e07a)
     )
@@ -47779,7 +47779,7 @@
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/e1d4924f-db1b-4c89-931b-6297f2c8415c")
     (attr smd)
-    (fp_text reference "C5" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C5" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3092a69a-a2e0-427c-91c9-64dfcac1aba9)
     )
@@ -47829,7 +47829,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/c660cb01-3771-4a28-9a3f-1d729ba8f7c5")
-    (fp_text reference "U1" (at -3.805 -3.349332) (layer "F.SilkS")
+    (fp_text reference "U1" (at -3.805 -3.349332) (layer "F.SilkS") hide
         (effects (font (size 1.733133 1.733133) (thickness 0.044867)) (justify right))
       (tstamp efeb1a00-20b2-4fc8-be8c-1564ae419086)
     )
@@ -49123,7 +49123,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/9b5fab67-8897-4f55-820d-249502bb2d13")
-    (fp_text reference "D2" (at 0 -0.762) (layer "F.SilkS")
+    (fp_text reference "D2" (at 0 -0.762) (layer "F.SilkS") hide
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify left))
       (tstamp 87ce16d3-670e-4486-9645-68b2a5499d8b)
     )
@@ -50962,7 +50962,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/a4af28ef-2a98-4fc3-98d3-fa275f0d83fd")
-    (fp_text reference "D1" (at 0 -0.762) (layer "F.SilkS")
+    (fp_text reference "D1" (at 0 -0.762) (layer "F.SilkS") hide
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify left))
       (tstamp b61e46d7-81cf-46eb-85a4-f08d553bee52)
     )
@@ -51264,37 +51264,37 @@
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/499c9313-8716-413e-9864-4d6e15969776")
     (fp_text reference "J3" (at -1.397 2.159 90) (layer "F.SilkS")
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify right))
-      (tstamp 6345ec94-43f0-4fb6-8d3e-0fb7feabd396)
+      (tstamp 14cf9b44-8f2d-4de4-ae4e-f44de2923055)
     )
     (fp_text value "QWIIC_RIGHT_ANGLE" (at -1.651 3.302 90) (layer "F.Fab")
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify right))
-      (tstamp 7abfcb36-aa10-4a38-8b8b-3a0bbade6883)
+      (tstamp ee7186ff-c0e3-4a4a-b80f-57c528208e31)
     )
     (fp_line (start -3 0.35) (end -2.25 0.35)
-      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp c0257c64-41c6-4516-9e09-cb7cf4e507f8))
+      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp a59467a8-a8ba-4416-80c2-7f71c1039263))
     (fp_line (start -3 2) (end -3 0.35)
-      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 53ee9e5b-3330-492e-9f6c-d334cd4ad8b0))
+      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 04949b90-377f-46a8-bab4-201b8ebc8205))
     (fp_line (start -1.5 4.6) (end 1.5 4.6)
-      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 54a6e907-aa22-4c6a-a180-d7b0db987a50))
+      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 1596c457-6c12-4065-b218-fc3eeb52a8ae))
     (fp_line (start 2.25 0.35) (end 3 0.35)
-      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 53152f73-d953-4dda-982a-9f1ddbe97b90))
+      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 33eb77eb-8627-43f4-8806-4ba6a656dfd0))
     (fp_line (start 3 0.35) (end 3 2)
-      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 8d69eea8-b454-4fe4-9bc6-c17e2b7ed74f))
+      (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 29dc9808-c67c-4799-93e8-014cabd805d9))
     (fp_circle (center -2.5 -0.3) (end -2.3984 -0.3)
-      (stroke (width 0.2032) (type solid)) (fill none) (layer "F.SilkS") (tstamp c8efdbe9-bc15-4f85-bb50-dae73ff0e58f))
+      (stroke (width 0.2032) (type solid)) (fill none) (layer "F.SilkS") (tstamp 8f056da2-94f9-421d-a72e-be2cd956a2a5))
     (pad "1" smd rect (at -1.5 0 270) (size 0.6 1.35) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 1 "GND") (pinfunction "1") (pintype "power_in") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 217079b8-5068-4d15-afaa-80e32be72ec7))
+      (net 1 "GND") (pinfunction "1") (pintype "power_in") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 2c5950d7-b6bf-4408-a41c-20c68efa69b7))
     (pad "2" smd rect (at -0.5 0 270) (size 0.6 1.35) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 2 "3.3V") (pinfunction "2") (pintype "power_in") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 24d3fc02-1a9e-448e-b92b-5d2d12d1b073))
+      (net 2 "3.3V") (pinfunction "2") (pintype "power_in") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 311323cc-80e9-4fcb-89d3-9aef3bea814c))
     (pad "3" smd rect (at 0.5 0 270) (size 0.6 1.35) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 25 "/SparkFun_GPS_ZED-F9R_BoB_1/SDA{slash}~{CS}") (pinfunction "3") (pintype "passive") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 82781b94-0ac8-4045-808e-ad87b0718339))
+      (net 25 "/SparkFun_GPS_ZED-F9R_BoB_1/SDA{slash}~{CS}") (pinfunction "3") (pintype "passive") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp cd936127-82c5-4762-91c2-2690070d6e4c))
     (pad "4" smd rect (at 1.5 0 270) (size 0.6 1.35) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 24 "/SparkFun_GPS_ZED-F9R_BoB_1/SCL{slash}CLK") (pinfunction "4") (pintype "passive") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 5e77c69e-31be-472e-8cb6-5b14658db880))
+      (net 24 "/SparkFun_GPS_ZED-F9R_BoB_1/SCL{slash}CLK") (pinfunction "4") (pintype "passive") (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp fde13635-d5e2-44f9-b029-52a021b25f63))
     (pad "NC1" smd rect (at 2.8 3.675 270) (size 1.2 2) (layers "F.Cu" "F.Paste" "F.Mask")
-      (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp aa1d1549-ac9b-4611-b05b-98d13098aba5))
+      (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 5f2f4ece-59e1-431d-a8ac-ac0d659d0ff7))
     (pad "NC2" smd rect (at -2.8 3.675 270) (size 1.2 2) (layers "F.Cu" "F.Paste" "F.Mask")
-      (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 7bb865de-b08c-4827-8a30-f2075363a3e4))
-    (model "${KWAN_KICAD_LIB}/stp/qwiic.step"
+      (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 8e3d4f0c-6609-4388-a111-6e3e20f8c381))
+    (model "${KWAN_KICAD_LIB}/KwanSystems.pretty/stp/qwiic.step"
       (offset (xyz 0 -0.7 -0.3))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -51674,7 +51674,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/834b9075-66d8-4b17-9448-15da887e8d70")
-    (fp_text reference "H2" (at 0 -1.651) (layer "F.SilkS")
+    (fp_text reference "H2" (at 0 -1.651) (layer "F.SilkS") hide
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify left))
       (tstamp 4a5d2acf-bbf5-43b0-9f37-fcd3540772ef)
     )
@@ -53488,7 +53488,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/5214adae-0cd3-4608-972f-7d42aef314e0")
-    (fp_text reference "JP3" (at 0 1.143) (layer "B.SilkS")
+    (fp_text reference "JP3" (at 0 1.143) (layer "B.SilkS") hide
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify left mirror))
       (tstamp 31916d25-bb5d-4ad5-8909-6af96f65b2a6)
     )
@@ -56803,7 +56803,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/8b84afd5-fea0-427c-a79c-997ee8faa94d")
-    (fp_text reference "JP2" (at 0 1.143) (layer "B.SilkS")
+    (fp_text reference "JP2" (at 0 1.143) (layer "B.SilkS") hide
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify left mirror))
       (tstamp 8c94434c-df59-424b-a5ee-bf606ac2d851)
     )
@@ -97197,7 +97197,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/9b1d8dfd-8577-4687-ad65-2f47cb90b373")
-    (fp_text reference "JP4" (at 0 1.143) (layer "B.SilkS")
+    (fp_text reference "JP4" (at 0 1.143) (layer "B.SilkS") hide
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify left mirror))
       (tstamp 48860773-4d3c-4ed2-ad17-9c63806841f8)
     )
@@ -101035,7 +101035,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/c0bef908-7c44-4c68-93ab-2e8f2be73df5")
-    (fp_text reference "JP6" (at 0 1.143 90) (layer "B.SilkS")
+    (fp_text reference "JP6" (at 0 1.143 90) (layer "B.SilkS") hide
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify left mirror))
       (tstamp ee6bdc1b-10be-44c0-a5f3-6da785598611)
     )
@@ -102670,7 +102670,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/5a14a149-5851-4851-b94b-5649a28b18c8")
-    (fp_text reference "JP5" (at 0 1.143 90) (layer "B.SilkS")
+    (fp_text reference "JP5" (at 0 1.143 90) (layer "B.SilkS") hide
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify left mirror))
       (tstamp 0200a93b-e0bf-4604-9826-29bf75877cf0)
     )
@@ -114195,7 +114195,7 @@
     (property "Sheetfile" "SparkFun_GPS_ZED-F9R_BoB_1.kicad_sch")
     (property "Sheetname" "SparkFun_GPS_ZED-F9R_BoB_1")
     (path "/ab150515-6555-458d-9b97-e789b29e42f7/9ce1d9e9-f546-4f1a-b499-9bc20fdd65e4")
-    (fp_text reference "JP1" (at 0 1.143) (layer "B.SilkS")
+    (fp_text reference "JP1" (at 0 1.143) (layer "B.SilkS") hide
         (effects (font (size 0.512064 0.512064) (thickness 0.097536)) (justify left mirror))
       (tstamp a7ef08f4-2095-4fe8-afc7-ad846ec1706e)
     )

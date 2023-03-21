@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "KwanSystems")(type "KiCad")(uri "${KWAN_KICAD_LIB}/KwanSystems.kicad_sym")(options "")(descr ""))
+)
