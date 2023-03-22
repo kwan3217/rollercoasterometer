@@ -1,22 +1,25 @@
-"""
-Scale a kicad_mod PCB footprint
+#!/usr/bin/env python3
+# coding=utf8
+#
+# Simple script to scale a KiCad footprint
+# Usage: 
+# python kicad-resize-footprint.py <input.kicad_mod> <output.kicad_mod> <scale>
+#
+# Where scale is how much to scale (1 = 100%)
+#
+# Copyright (C) 2020, Uri Shaked.
 
-Note! This does not try to understand the whole file s-code (or whatever it is)
-file format, but instead just looks for a particular pattern that Kicad always
-uses -- a line (xy xxx.xxxxxx yyy.yyyyyy) is a coordinate to be scaled
-"""
+import sys
 import re
 
-scale_factor=0.6
+scale = float(sys.argv[3])
 
-#with open("kicad/kwan_kicad_lib/KwanSystems.pretty/OSHW-Symbol_6.7x6mm_SolderMask.kicad_mod","rt") as inf:
-#    with open("kicad/kwan_kicad_lib/KwanSystems.pretty/OSHW-Symbol_4x3.6mm_SolderMask.kicad_mod","wt") as ouf:
-with open("kicad/kwan_kicad_lib/KwanSystems.pretty/StKwansSoldermask.kicad_mod", "rt") as inf:
-    with open("kicad/kwan_kicad_lib/KwanSystems.pretty/StKwansSoldermask_0.6.kicad_mod", "wt") as ouf:
-        for line in inf:
-            if match:=re.match("(?P<prefix>\s*\(xy\s+)(?P<x>-?\d+(\.\d+)?)(?P<infix>\s+)(?P<y>-?\d+(\.\d+)?)(?P<suffix>\)\s*)",line):
-                line=(match.group("prefix")
-                     +f'{float(match.group("x"))*scale_factor:.6f}'+match.group('infix')
-                     +f'{float(match.group("y"))*scale_factor:.6f}'+match.group('suffix'))
-            print(line,file=ouf,end='')
+def scalexy(val):
+    x = float(val.group(1)) * scale
+    y = float(val.group(2)) * scale
+    return '(xy {} {})'.format(x, y)
 
+with open(sys.argv[1], 'r') as in_file, open(sys.argv[2], 'w', newline='') as out_file:
+    for line in in_file:
+        line = re.sub(r'\(xy ([0-9-.]+) ([0-9-.]+)\)', scalexy, line)
+        out_file.write(line)
