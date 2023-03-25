@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.75,
-          "height": 6.2,
-          "width": 6.2
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -549,16 +549,20 @@
       ""
     ],
     [
+      "33931f81-2c9f-4d8e-9e68-7993fd5d2333",
+      "Pressure"
+    ],
+    [
+      "3b93bc13-d200-400d-8f97-31f6089ee0fa",
+      "IMU"
+    ],
+    [
       "eb4a6f4d-7e16-4c6c-a6b2-1e8ab1c12053",
       "3V3 Regulator"
     ],
     [
       "9cdef0f4-d69e-4ec7-af65-50b2b694ea2b",
       "1V8 Regulator"
-    ],
-    [
-      "33931f81-2c9f-4d8e-9e68-7993fd5d2333",
-      "Pressure"
     ],
     [
       "210b172c-b965-4a60-99f4-39f3cf0b0a90",

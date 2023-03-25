@@ -21,4 +21,6 @@ kicad/rollercoasterometer.xml
 *.FCStd1
 
 from Sparkfun/
+*autosave*
+#auto_saved_files#
 
