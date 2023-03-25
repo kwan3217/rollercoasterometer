@@ -5370,6 +5370,23 @@
     )
   )
 
+  (sheet (at 186.69 73.66) (size 16.51 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 33931f81-2c9f-4d8e-9e68-7993fd5d2333)
+    (property "Sheetname" "Pressure" (at 186.69 72.9484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "BME280 stamp.kicad_sch" (at 186.69 81.8646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "shipometer"
+        (path "/ba8024d5-8c9d-4001-9766-31acf13004f5" (page "5"))
+      )
+    )
+  )
+
   (sheet (at 129.54 87.63) (size 22.86 7.62) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
