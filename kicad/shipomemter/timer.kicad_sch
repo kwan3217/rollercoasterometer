@@ -842,7 +842,7 @@
     (pin "1" (uuid c7e322ad-f791-46d8-b802-d8026489aa21))
     (pin "2" (uuid ea966e7f-0750-4d80-9186-f5b987ffd015))
     (instances
-      (project "rollercoasterometer_hat_sf"
+      (project "shipometer"
         (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/210b172c-b965-4a60-99f4-39f3cf0b0a90"
           (reference "C1205") (unit 1)
         )
@@ -874,7 +874,7 @@
     (pin "1" (uuid d3a03c3f-18e6-4466-90f2-b577d0e57476))
     (pin "2" (uuid 88963115-2b96-4769-ae8c-0f43be632c17))
     (instances
-      (project "rollercoasterometer_hat_sf"
+      (project "shipometer"
         (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/210b172c-b965-4a60-99f4-39f3cf0b0a90"
           (reference "C1217") (unit 1)
         )
@@ -926,7 +926,7 @@
     (pin "3" (uuid 3ac1a597-b28b-45ca-912d-88fd87e2be7f))
     (pin "4" (uuid 2db3c459-1a55-4c59-ba78-36ca3ca31430))
     (instances
-      (project "rollercoasterometer_hat_sf"
+      (project "shipometer"
         (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/210b172c-b965-4a60-99f4-39f3cf0b0a90"
           (reference "Y1201") (unit 1)
         )
@@ -958,7 +958,7 @@
     (pin "1" (uuid df3fef4f-3435-4cc7-a9c8-120b439967c1))
     (pin "2" (uuid b78f5d67-01dc-4491-9c33-8c95242aff8d))
     (instances
-      (project "rollercoasterometer_hat_sf"
+      (project "shipometer"
         (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/210b172c-b965-4a60-99f4-39f3cf0b0a90"
           (reference "C1212") (unit 1)
         )
@@ -990,7 +990,7 @@
     (pin "1" (uuid 05d82c39-cc6d-42b4-bfd7-15194cdce31d))
     (pin "2" (uuid c81e3971-a9c8-43fa-ae93-17318a7ff322))
     (instances
-      (project "rollercoasterometer_hat_sf"
+      (project "shipometer"
         (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/210b172c-b965-4a60-99f4-39f3cf0b0a90"
           (reference "C1211") (unit 1)
         )
@@ -1071,7 +1071,7 @@
     (pin "8" (uuid 855b06ae-5630-49ff-829a-9c5423985429))
     (pin "9" (uuid fc17e7fb-554d-4476-a9f5-e6d3771f5351))
     (instances
-      (project "rollercoasterometer_hat_sf"
+      (project "shipometer"
         (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/210b172c-b965-4a60-99f4-39f3cf0b0a90"
           (reference "U1201") (unit 1)
         )
@@ -1103,7 +1103,7 @@
     (pin "1" (uuid fcadfeee-9315-46ca-b76e-efefa898c083))
     (pin "2" (uuid 7998f695-54ff-4560-84b5-f0f31e8aba84))
     (instances
-      (project "rollercoasterometer_hat_sf"
+      (project "shipometer"
         (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/210b172c-b965-4a60-99f4-39f3cf0b0a90"
           (reference "C1240") (unit 1)
         )
