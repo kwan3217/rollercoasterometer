@@ -114,7 +114,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/dbf44e90-efbf-4ffc-946e-09aa047f9aff")
     (attr smd)
-    (fp_text reference "C106" (at 0 -1.43 90) (layer "F.SilkS") hide
+    (fp_text reference "C508" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6c2ba9d7-ba21-400d-851f-c6c662f16f5e)
     )
@@ -164,7 +164,7 @@
     (property "Sheetname" "")
     (path "/2cb1d2fc-8ca4-4e18-b3a0-505b1bde68eb")
     (attr smd)
-    (fp_text reference "J101" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (fp_text reference "J501" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 21ec96bb-523a-43ac-a350-3b9d1f208d5a)
     )
@@ -281,7 +281,7 @@
     (property "ki_keywords" "Bosch pressure humidity temperature environment environmental measurement digital")
     (path "/0b6a4cfd-6867-4b53-acc2-4bbbb106a70e")
     (attr smd)
-    (fp_text reference "U1" (at 0.015 -2.465) (layer "F.SilkS") hide
+    (fp_text reference "U501" (at 0.015 -2.465) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 19c54148-3e1c-47c3-a87f-3880744ec8cf)
     )
@@ -359,7 +359,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/965e1fe6-eb2d-4302-825a-63fd2a960836")
     (attr smd)
-    (fp_text reference "C1" (at 0 -1.43 90) (layer "F.SilkS") hide
+    (fp_text reference "C506" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c2698c9b-0208-4698-9cd9-1baf9b0c7910)
     )
