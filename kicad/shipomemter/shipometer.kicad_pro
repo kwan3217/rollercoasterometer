@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.0,
+          "height": 2.032,
+          "width": 2.54
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -614,14 +614,6 @@
     [
       "210b172c-b965-4a60-99f4-39f3cf0b0a90",
       "Timer"
-    ],
-    [
-      "a0e68691-2daf-412f-ae99-bc89f5381007",
-      "Stamp Tester"
-    ],
-    [
-      "f626bd87-a9c2-4f08-af29-d00a1c06cd07",
-      "1V8 Regulator1"
     ]
   ],
   "text_variables": {}

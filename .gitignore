@@ -28,3 +28,6 @@ fpga/
 data/
 
 
+/record_base/cmake-build-debug/.ninja_deps
+/parse_ublox/.idea/
+/parse_ublox/cmake-build-debug/
