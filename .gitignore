@@ -24,3 +24,7 @@ from Sparkfun/
 *autosave*
 #auto_saved_files#
 
+fpga/
+data/
+
+
