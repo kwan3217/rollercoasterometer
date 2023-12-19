@@ -6,19 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7513d03f-60ab-4223-b9b3-c4116192a5d0" name="Changes" comment="Update .gitignore files">
       <change afterPath="$PROJECT_DIR$/parse_ublox/parse_shipometer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mechanical/Shipometer case bottom.scad" beforeDir="false" afterPath="$PROJECT_DIR$/Mechanical/Shipometer case bottom.scad" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kicad/kwan_kicad_lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kicad/regulator.kicad_sch" beforeDir="false" afterPath="$PROJECT_DIR$/kicad/regulator.kicad_sch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kicad/shipomemter/#auto_saved_files#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kicad/shipomemter/BME280 stamp.kicad_sch" beforeDir="false" afterPath="$PROJECT_DIR$/kicad/shipomemter/BME280 stamp.kicad_sch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kicad/shipomemter/Demo.kicad_sch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kicad/shipomemter/ICM20948 stamp.kicad_sch" beforeDir="false" afterPath="$PROJECT_DIR$/kicad/shipomemter/ICM20948 stamp.kicad_sch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kicad/shipomemter/shipometer.kicad_pcb" beforeDir="false" afterPath="$PROJECT_DIR$/kicad/shipomemter/shipometer.kicad_pcb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kicad/shipomemter/shipometer.kicad_pro" beforeDir="false" afterPath="$PROJECT_DIR$/kicad/shipomemter/shipometer.kicad_pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kicad/shipomemter/shipometer.kicad_sch" beforeDir="false" afterPath="$PROJECT_DIR$/kicad/shipomemter/shipometer.kicad_sch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kicad/shipomemter/timer.kicad_sch" beforeDir="false" afterPath="$PROJECT_DIR$/kicad/shipomemter/timer.kicad_sch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parse_ublox/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parse_ublox/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parse_ublox/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/parse_ublox/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parse_ublox/parse_gps.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_ublox/parse_gps.py" afterDir="false" />
@@ -39,20 +27,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "gps__breakout",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;gps__breakout&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,7 +49,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697485768923</updated>
-      <workItem from="1697485769965" duration="494000" />
+      <workItem from="1697485769965" duration="1239000" />
+      <workItem from="1697517867744" duration="634000" />
     </task>
     <task id="LOCAL-00001" summary="Update .gitignore files">
       <created>1697486007804</created>

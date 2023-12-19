@@ -2589,7 +2589,6 @@
     )
   )
 
-
   (junction (at 45.72 147.32) (diameter 0) (color 0 0 0 0)
     (uuid 0654ee24-aeec-48da-908f-8e56b691213d)
   )
@@ -6026,14 +6025,14 @@
     )
   )
 
-  (sheet (at 215.9 73.66) (size 12.7 7.62) (fields_autoplaced)
+  (sheet (at 215.9 72.39) (size 25.4 17.78) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 3b93bc13-d200-400d-8f97-31f6089ee0fa)
-    (property "Sheetname" "IMU" (at 215.9 72.9484 0)
+    (property "Sheetname" "IMU" (at 215.9 71.6784 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "ICM20948 stamp.kicad_sch" (at 215.9 81.8646 0)
+    (property "Sheetfile" "ICM20948 stamp.kicad_sch" (at 215.9 90.7546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
